@@ -1,0 +1,979 @@
+[
+  {
+    "id": "math_2025_p1_q1_1_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "1.1.1",
+    "marks": 2,
+    "question_en": "Solve for x:\n(x + 5)(x − 2) = 0",
+    "question_af": "Los op vir x:\n(x + 5)(x − 2) = 0",
+    "memo_answer": "x = −5 or x = 2",
+    "memo_steps": [
+      "x = −5",
+      "x = 2"
+    ],
+    "question_type": "short_answer",
+    "notes": "Both values required for full marks."
+  },
+  {
+    "id": "math_2025_p1_q1_1_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "1.1.2",
+    "marks": 4,
+    "question_en": "Solve for x:\n5x² + 2 = −9x (correct to TWO decimal places)",
+    "question_af": "Los op vir x:\n5x² + 2 = −9x (korrek tot TWEE desimale plekke)",
+    "memo_answer": "x = −0,26 or x = −1,54",
+    "memo_steps": [
+      "Rewrite in standard form: 5x² + 9x + 2 = 0",
+      "Substitute into the quadratic formula: x = (−9 ± √(9² − 4(5)(2))) / (2 × 5)",
+      "Simplify: x = (−9 ± √41) / 10",
+      "x = −0,26 or x = −1,54"
+    ],
+    "question_type": "short_answer",
+    "notes": "Must be solved using the quadratic formula. Both answers must be correct to TWO decimal places."
+  },
+  {
+    "id": "math_2025_p1_q1_1_3",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "1.1.3",
+    "marks": 4,
+    "question_en": "Solve for x:\n8x² > 2x",
+    "question_af": "Los op vir x:\n8x² > 2x",
+    "memo_answer": "x < 0 or x > 1/4",
+    "memo_steps": [
+      "Rewrite in standard form: 8x² − 2x > 0",
+      "Factorise: 2x(4x − 1) > 0",
+      "Critical values: x = 0 and x = 1/4",
+      "Use a number line or sign table to determine the solution",
+      "x < 0 or x > 1/4"
+    ],
+    "question_type": "short_answer",
+    "notes": "Answer must include both intervals. Award marks for standard form, critical values/factors, and final answer."
+  },
+  {
+    "id": "math_2025_p1_q1_1_4",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "1.1.4",
+    "marks": 4,
+    "question_en": "Solve for x:\n2.2²ˣ − 9.2ˣ + 4 = 0",
+    "question_af": "Los op vir x:\n2.2²ˣ − 9.2ˣ + 4 = 0",
+    "memo_answer": "x = −1 or x = 2",
+    "memo_steps": [
+      "Factorise: (2.2ˣ − 1)(2ˣ − 4) = 0",
+      "Set each factor to zero: 2ˣ = 1/2 or 2ˣ = 4",
+      "Rewrite: 2ˣ = 2⁻¹ or 2ˣ = 2²",
+      "x = −1 or x = 2"
+    ],
+    "question_type": "short_answer",
+    "notes": "Alternative method: let k = 2ˣ, giving 2k² − 9k + 4 = 0, then (2k − 1)(k − 4) = 0. Both answers required for full marks."
+  },
+  {
+    "id": "math_2025_p1_q1_1_5",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "1.1.5",
+    "marks": 5,
+    "question_en": "Solve for x:\n√(√(1/x) + 2) = 1/√x",
+    "question_af": "Los op vir x:\n√(√(1/x) + 2) = 1/√x",
+    "memo_answer": "x = 1/4",
+    "memo_steps": [
+      "Square both sides: √(1/x) + 2 = 1/x",
+      "Isolate the surd: √(1/x) = 1/x − 2",
+      "Square both sides again (only after isolation): 1/x = (1/x − 2)²",
+      "Expand: 1/x = 1/x² − 4/x + 4",
+      "Rearrange to standard form: 4x² − 5x + 1 = 0",
+      "Factorise: (4x − 1)(x − 1) = 0",
+      "x = 1/4 or x = 1 (reject x = 1 by substitution check — it does not satisfy the original equation)",
+      "x = 1/4"
+    ],
+    "question_type": "short_answer",
+    "notes": "Mark is awarded for squaring both sides, isolating the surd, squaring again only after isolation, standard form, and answer with valid selection. x = 1 must be rejected."
+  },
+  {
+    "id": "math_2025_p1_q1_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "1.2",
+    "marks": 6,
+    "question_en": "Calculate the values of x and y if:\n• x is the sum of 2 and y\n• Five times the product of x and y, is 6 more than the square of x",
+    "question_af": "Bereken die waardes van x en y indien:\n• x die som van 2 en y is\n• Vyf keer die produk van x en y, 6 meer as die kwadraat van x is",
+    "memo_answer": "x = −1/2 and y = −5/2, or x = 3 and y = 1",
+    "memo_steps": [
+      "Set up equations: x = y + 2 ... (1) and 5xy = x² + 6 ... (2)",
+      "Substitute (1) into (2): 5(y + 2)y = (y + 2)² + 6",
+      "Expand: 5y² + 10y = y² + 4y + 4 + 6",
+      "Rearrange to standard form: 4y² + 6y − 10 = 0, simplify to 2y² + 3y − 5 = 0",
+      "Factorise: (2y + 5)(y − 1) = 0",
+      "y = −5/2 or y = 1",
+      "Substitute back: x = −1/2 or x = 3"
+    ],
+    "question_type": "short_answer",
+    "notes": "Both pairs of (x, y) values required. Marks awarded for correct equations set up, substitution, standard form, y-values, and x-values."
+  },
+  {
+    "id": "math_2025_p1_q2_1_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "2.1.1",
+    "marks": 3,
+    "question_en": "Given the infinite geometric series: (t + 10) + (t − 2) + (t + 4) + …\nShow that t = −2",
+    "question_af": "Gegee die oneindige meetkundige reeks: (t + 10) + (t − 2) + (t + 4) + …\nDui aan dat t = −2",
+    "memo_answer": "t = −2",
+    "memo_steps": [
+      "For a geometric series, the ratio of consecutive terms must be equal: (t − 2)/(t + 10) = (t + 4)/(t − 2)",
+      "Cross-multiply: (t − 2)² = (t + 4)(t + 10)",
+      "Expand both sides: t² − 4t + 4 = t² + 14t + 40",
+      "Simplify: −18t = 36",
+      "Therefore t = −2"
+    ],
+    "question_type": "short_answer",
+    "notes": "This is a 'show that' question — the working must clearly lead to t = −2. Marks awarded for equating ratios, cross-multiplication, and correct expansion."
+  },
+  {
+    "id": "math_2025_p1_q2_1_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "2.1.2",
+    "marks": 3,
+    "question_en": "Given the infinite geometric series: (t + 10) + (t − 2) + (t + 4) + … where t = −2.\nCalculate the value of T₂₅. Write your answer in the form Tₙ = bˣ",
+    "question_af": "Gegee die oneindige meetkundige reeks: (t + 10) + (t − 2) + (t + 4) + … waar t = −2.\nBereken die waarde van T₂₅. Skryf jou antwoord in die vorm Tₙ = bˣ",
+    "memo_answer": "T₂₅ = (1/2)²¹ or equivalently (2)⁻²¹ or (8)⁻⁷ or (128)⁻³ or (2 097 152)⁻¹",
+    "memo_steps": [
+      "Substitute t = −2: series becomes 8 + (−4) + 2 + …",
+      "First term a = 8, common ratio r = −4/8 = −1/2",
+      "Use Tₙ = arⁿ⁻¹: T₂₅ = 8 × (−1/2)²⁴",
+      "Simplify: T₂₅ = 8 × (1/2)²⁴ = (1/2)²¹",
+      "Answer in exponential form: T₂₅ = (1/2)²¹"
+    ],
+    "question_type": "short_answer",
+    "notes": "The answer must be expressed in the form Tₙ = bˣ. Multiple equivalent exponential forms are accepted."
+  },
+  {
+    "id": "math_2025_p1_q2_1_3",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "2.1.3",
+    "marks": 2,
+    "question_en": "Given the infinite geometric series: (t + 10) + (t − 2) + (t + 4) + … where t = −2.\nCalculate the sum of the infinite series.",
+    "question_af": "Gegee die oneindige meetkundige reeks: (t + 10) + (t − 2) + (t + 4) + … waar t = −2.\nBereken die som van die oneindige reeks.",
+    "memo_answer": "S∞ = 16/3 ≈ 5,33",
+    "memo_steps": [
+      "Use formula S∞ = a / (1 − r) where a = 8 and r = −1/2",
+      "S∞ = 8 / (1 − (−1/2)) = 8 / (3/2) = 16/3 ≈ 5,33"
+    ],
+    "question_type": "short_answer",
+    "notes": "Both the substitution and the correct final answer are required."
+  },
+  {
+    "id": "math_2025_p1_q2_2_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "2.2.1",
+    "marks": 2,
+    "question_en": "Given: ∑(p=k to 117) (4p − 1) = 26 675\nWrite down the difference between T₆ and T₁₄",
+    "question_af": "Gegee: ∑(p=k tot 117) (4p − 1) = 26 675\nSkryf die verskil tussen T₆ en T₁₄ neer.",
+    "memo_answer": "T₁₄ − T₆ = 32",
+    "memo_steps": [
+      "The general term is Tₙ = 4n − 1, so the common difference d = 4",
+      "T₁₄ − T₆ = 4 × 8 = 32 (there are 8 intervals of common difference 4 between terms 6 and 14)"
+    ],
+    "question_type": "short_answer",
+    "notes": "This is an arithmetic series with Tₙ = 4p − 1 and d = 4. The difference between any two terms 8 apart equals 4 × 8 = 32."
+  },
+  {
+    "id": "math_2025_p1_q2_2_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "2.2.2",
+    "marks": 5,
+    "question_en": "Given: ∑(p=k to 117) (4p − 1) = 26 675\nCalculate the value of k.",
+    "question_af": "Gegee: ∑(p=k tot 117) (4p − 1) = 26 675\nBereken die waarde van k.",
+    "memo_answer": "k = 21",
+    "memo_steps": [
+      "Number of terms: n = 118 − k",
+      "Last term: T₁₁₇ = 4(117) − 1 = 467",
+      "Apply sum formula: S = (n/2)[first term + last term] = ((118−k)/2)[4k−1 + 467]",
+      "Set equal to 26 675: 26 675 = (118−k)(2k + 233)",
+      "Expand and rearrange: 2k² − 3k − 819 = 0",
+      "Factorise: (k − 21)(2k + 39) = 0",
+      "k = 21 (reject k = −39/2 as k must be a positive integer)"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for identifying number of terms, last term, correct substitution into sum formula, standard form, and answer with selection."
+  },
+  {
+    "id": "math_2025_p1_q3_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "3.1",
+    "marks": 2,
+    "question_en": "The depth of a torpedo below sea level forms a quadratic pattern, where 0 metres is at sea level. A submarine tracked a torpedo in one-second intervals. The depth (in metres) that the torpedo reached is given in the table below:\n- At the end of the first second: 36 m\n- At the end of the first 2 seconds: 71 m\n- At the end of the first 3 seconds: 104 m\n\nCalculate the depth of the torpedo at the end of the first 5 seconds.",
+    "question_af": "Die diepte van 'n torpedo onder seevlak vorm 'n kwadratiese patroon, waar 0 meter by seevlak is. 'n Duikboot het 'n torpedo met intervalle van een sekonde elk gevolg. Die diepte (in meter) wat die torpedo bereik het, word in die tabel hieronder gegee:\n- Aan die einde van die eerste sekonde: 36 m\n- Aan die einde van die eerste 2 sekondes: 71 m\n- Aan die einde van die eerste 3 sekondes: 104 m\n\nBereken die diepte van die torpedo aan die einde van die eerste 5 sekondes.",
+    "memo_answer": "T₅ = 164 m",
+    "memo_steps": [
+      "Find first differences: 71 − 36 = 35, 104 − 71 = 33",
+      "Second difference (constant for quadratic): 33 − 35 = −2",
+      "Third first difference: 33 + (−2) = 31, so T₄ = 104 + 31 = 135",
+      "Fourth first difference: 31 + (−2) = 29, so T₅ = 135 + 29 = 164",
+      "T₅ = 164 m"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for identifying first differences and calculating correct answer."
+  },
+  {
+    "id": "math_2025_p1_q3_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "3.2",
+    "marks": 3,
+    "question_en": "The depth of a torpedo below sea level forms a quadratic pattern. The depth (in metres) at the end of 1 second is 36 m, 2 seconds is 71 m, and 3 seconds is 104 m.\nShow that the depth of the torpedo at the end of n seconds was Tₙ = −n² + 38n − 1",
+    "question_af": "Die diepte van 'n torpedo onder seevlak vorm 'n kwadratiese patroon. Die diepte (in meter) aan die einde van 1 sekonde is 36 m, 2 sekondes is 71 m, en 3 sekondes is 104 m.\nToon dat die diepte van die torpedo aan die einde van n sekondes Tₙ = −n² + 38n − 1 was.",
+    "memo_answer": "Tₙ = −n² + 38n − 1",
+    "memo_steps": [
+      "Second difference = −2, so 2a = −2, therefore a = −1",
+      "Substitute into 3a + b = first difference: 3(−1) + b = 35, so b = 38",
+      "Substitute into a + b + c = T₁: −1 + 38 + c = 36, so c = −1",
+      "Therefore Tₙ = −n² + 38n − 1"
+    ],
+    "question_type": "short_answer",
+    "notes": "This is a 'show that' question. Marks awarded for deriving a, b, and c correctly."
+  },
+  {
+    "id": "math_2025_p1_q3_3",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "3.3",
+    "marks": 3,
+    "question_en": "The depth of the torpedo at the end of n seconds is given by Tₙ = −n² + 38n − 1.\nCalculate the maximum depth that the torpedo reached.",
+    "question_af": "Die diepte van die torpedo aan die einde van n sekondes word gegee deur Tₙ = −n² + 38n − 1.\nBereken die maksimum diepte wat die torpedo bereik het.",
+    "memo_answer": "Maximum depth = 360 m at n = 19",
+    "memo_steps": [
+      "For maximum, use n = −b/(2a) = −38 / (2 × (−1)) = 19",
+      "Substitute n = 19: T₁₉ = −(19)² + 38(19) − 1 = −361 + 722 − 1 = 360",
+      "Maximum depth = 360 m"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for the method (finding vertex/axis of symmetry), the value of n, and the correct maximum depth. Alternative: set T'ₙ = −2n + 38 = 0 to get n = 19."
+  },
+  {
+    "id": "math_2025_p1_q3_4",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "3.4",
+    "marks": 2,
+    "question_en": "The depth of the torpedo at the end of n seconds is given by Tₙ = −n² + 38n − 1.\nAfter how many seconds was the torpedo at 104 m below sea level for the second time?",
+    "question_af": "Die diepte van die torpedo aan die einde van n sekondes word gegee deur Tₙ = −n² + 38n − 1.\nNa hoeveel sekondes was die torpedo vir die tweede keer op 104 m onder seevlak?",
+    "memo_answer": "35 seconds",
+    "memo_steps": [
+      "The torpedo first reaches 104 m at n = 3 (given in the table)",
+      "By symmetry of the quadratic, the second time is at n = (3 + 19)/2 × 2 − 3... use symmetry about the axis n = 19: second time = 2 × 19 − 3 = 35",
+      "Alternatively, solve −n² + 38n − 1 = 104 → n² − 38n + 105 = 0 → (n − 35)(n − 3) = 0 → n = 35",
+      "The torpedo is at 104 m for the second time after 35 seconds"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for the method and the correct answer."
+  },
+  {
+    "id": "math_2025_p1_q4_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "4.1",
+    "marks": 1,
+    "question_en": "The graph of f(x) = log_(1/3) x is drawn. Point A is the x-intercept of f and (3 ; t) lies on f.\nCalculate the value of t.",
+    "question_af": "Die grafiek van f(x) = log_(1/3) x is hieronder geskets. Punt A is die x-afsnit van f en (3 ; t) is op f.\nBepaal die waarde van t.",
+    "memo_answer": "t = −1",
+    "memo_steps": [
+      "Substitute x = 3 into f(x) = log_(1/3) x",
+      "t = log_(1/3) 3 = −1 (since (1/3)⁻¹ = 3)"
+    ],
+    "question_type": "short_answer",
+    "notes": "Single mark for the correct answer."
+  },
+  {
+    "id": "math_2025_p1_q4_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "4.2",
+    "marks": 1,
+    "question_en": "The graph of f(x) = log_(1/3) x is drawn. Point A is the x-intercept of f.\nWrite down the coordinates of A.",
+    "question_af": "Die grafiek van f(x) = log_(1/3) x is hieronder geskets. Punt A is die x-afsnit van f.\nSkryf die koördinate van A neer.",
+    "memo_answer": "A(1 ; 0)",
+    "memo_steps": [
+      "The x-intercept occurs when f(x) = 0",
+      "log_(1/3) x = 0 means x = 1",
+      "A = (1 ; 0)"
+    ],
+    "question_type": "short_answer",
+    "notes": "Single mark for the correct coordinates."
+  },
+  {
+    "id": "math_2025_p1_q4_3",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "4.3",
+    "marks": 2,
+    "question_en": "f(x) = log_(1/3) x. Determine the equation of f⁻¹, the inverse of f, in the form y = …",
+    "question_af": "f(x) = log_(1/3) x. Bepaal die vergelyking van f⁻¹, die inverse van f, in die formaat y = …",
+    "memo_answer": "y = (1/3)ˣ or equivalently y = 3⁻ˣ",
+    "memo_steps": [
+      "Write f as y = log_(1/3) x",
+      "Swap x and y: x = log_(1/3) y",
+      "Rewrite in exponential form: y = (1/3)ˣ = 3⁻ˣ"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for swapping x and y, and for the correct final equation."
+  },
+  {
+    "id": "math_2025_p1_q4_4",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "4.4",
+    "marks": 1,
+    "question_en": "f(x) = log_(1/3) x and f⁻¹(x) = (1/3)ˣ.\nWrite down the equation of the asymptote of f⁻¹.",
+    "question_af": "f(x) = log_(1/3) x en f⁻¹(x) = (1/3)ˣ.\nSkryf die vergelyking van die asimptoot van f⁻¹ neer.",
+    "memo_answer": "y = 0",
+    "memo_steps": [
+      "The inverse is an exponential function f⁻¹(x) = (1/3)ˣ",
+      "Exponential functions have a horizontal asymptote at y = 0"
+    ],
+    "question_type": "short_answer",
+    "notes": "Single mark for the correct equation."
+  },
+  {
+    "id": "math_2025_p1_q4_6",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "4.6",
+    "marks": 2,
+    "question_en": "f⁻¹(x) = (1/3)ˣ. The graph of h is obtained when f⁻¹ is translated 5 units to the right. Determine the y-values of h where x > 4.",
+    "question_af": "f⁻¹(x) = (1/3)ˣ. Die grafiek van h word verkry indien f⁻¹ 'n translasie van 5 eenhede na regs ondergaan. Bepaal die y-waardes van h waar x > 4.",
+    "memo_answer": "0 < y < 3",
+    "memo_steps": [
+      "h(x) = f⁻¹(x − 5) = (1/3)^(x−5)",
+      "The point (−1 ; 3) on f⁻¹ shifts to (4 ; 3) on h",
+      "As x > 4, the function h is decreasing and approaches 0",
+      "Therefore for x > 4: 0 < y < 3"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for both bounds of the y-range."
+  },
+  {
+    "id": "math_2025_p1_q5_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "5.1",
+    "marks": 1,
+    "question_en": "The graph of g(x) = −4/(x − 3) + 8 is drawn. Write down the domain of g.",
+    "question_af": "Die grafiek van g(x) = −4/(x − 3) + 8 is hieronder geskets. Skryf die definisieversameling van g neer.",
+    "memo_answer": "x ∈ ℝ, x ≠ 3",
+    "memo_steps": [
+      "The denominator (x − 3) cannot equal zero",
+      "x ≠ 3",
+      "Domain: x ∈ ℝ, x ≠ 3"
+    ],
+    "question_type": "short_answer",
+    "notes": "Single mark for the correct domain statement."
+  },
+  {
+    "id": "math_2025_p1_q5_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "5.2",
+    "marks": 1,
+    "question_en": "The graph of f(x) = ax² + bx + c is a parabola with turning point P at (3 ; 8). Write down the range of f.",
+    "question_af": "Die grafiek van f(x) = ax² + bx + c is 'n parabool met draaipunt P by (3 ; 8). Skryf die waardeversameling van f neer.",
+    "memo_answer": "y ≤ 8",
+    "memo_steps": [
+      "The turning point P is at (3 ; 8) and the parabola opens downward (a < 0)",
+      "The maximum value of f is 8",
+      "Range: y ≤ 8"
+    ],
+    "question_type": "short_answer",
+    "notes": "Single mark for the correct range."
+  },
+  {
+    "id": "math_2025_p1_q5_3_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "5.3.1",
+    "marks": 2,
+    "question_en": "The graphs of f(x) = −(1/2)x² + 3x + 7/2 and g(x) = −4/(x − 3) + 8 intersect at D(5 ; 6). P is the turning point of f at (3 ; 8).\nDetermine the values of x for which: g(x) ≤ f(x)",
+    "question_af": "Die grafieke van f(x) = −(1/2)x² + 3x + 7/2 en g(x) = −4/(x − 3) + 8 sny mekaar by D(5 ; 6). P is die draaipunt van f by (3 ; 8).\nBepaal die waardes van x waarvoor: g(x) ≤ f(x)",
+    "memo_answer": "3 < x ≤ 5",
+    "memo_steps": [
+      "From the graph, g(x) ≤ f(x) between the vertical asymptote of g (x = 3) and the intersection point D (x = 5)",
+      "3 < x ≤ 5"
+    ],
+    "question_type": "short_answer",
+    "notes": "Read from the graph. Both bounds and the correct inequality signs are required. The vertical asymptote x = 3 is excluded (strict inequality); the intersection at x = 5 is included."
+  },
+  {
+    "id": "math_2025_p1_q5_3_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "5.3.2",
+    "marks": 2,
+    "question_en": "The graph of f(x) = −(1/2)x² + 3x + 7/2 has turning point P at (3 ; 8) and x-intercepts at M and T.\nDetermine the values of x for which: f(x) < 6",
+    "question_af": "Die grafiek van f(x) = −(1/2)x² + 3x + 7/2 het draaipunt P by (3 ; 8) en x-afsnitte by M en T.\nBepaal die waardes van x waarvoor: f(x) < 6",
+    "memo_answer": "x < 1 or x > 5",
+    "memo_steps": [
+      "From the graph, f(x) < 6 below the horizontal line y = 6",
+      "f(x) = 6 at the points where x = 1 and x = 5 (since D(5;6) is on both graphs, and by symmetry about x = 3, the other point is x = 1)",
+      "x < 1 or x > 5"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for x < 1 and x > 5 separately."
+  },
+  {
+    "id": "math_2025_p1_q5_4",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "5.4",
+    "marks": 3,
+    "question_en": "The graphs of f(x) = ax² + bx + c and g(x) = −4/(x − 3) + 8 are drawn. P is the turning point of f and the point of intersection of the asymptotes of g, and P is at (3 ; 8). The graphs intersect at D(5 ; 6).\nShow that the equation of the parabola is f(x) = −(1/2)x² + 3x + 7/2",
+    "question_af": "Die grafieke van f(x) = ax² + bx + c en g(x) = −4/(x − 3) + 8 is hieronder geskets. P is die draaipunt van f sowel as die snypunt van die asimptote van g, en P is by (3 ; 8). Die grafieke sny mekaar by D(5 ; 6).\nToon dat die vergelyking van die parabool f(x) = −(1/2)x² + 3x + 7/2 is.",
+    "memo_answer": "f(x) = −(1/2)x² + 3x + 7/2",
+    "memo_steps": [
+      "Since P(3 ; 8) is the turning point, write in vertex form: y = a(x − 3)² + 8",
+      "Substitute the point D(5 ; 6): 6 = a(5 − 3)² + 8 = 4a + 8",
+      "Solve: −2 = 4a, so a = −1/2",
+      "Expand: y = −(1/2)(x − 3)² + 8 = −(1/2)(x² − 6x + 9) + 8 = −(1/2)x² + 3x − 9/2 + 8",
+      "Simplify: y = −(1/2)x² + 3x + 7/2"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for identifying turning point (p and q values), substituting D(5;6), and correct simplification."
+  },
+  {
+    "id": "math_2025_p1_q5_5",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "5.5",
+    "marks": 6,
+    "question_en": "The graphs of f(x) = −(1/2)x² + 3x + 7/2 and g(x) = −4/(x − 3) + 8 are drawn. M is the x-intercept of f and T is the x-intercept of g.\nCalculate the length of MT.",
+    "question_af": "Die grafieke van f(x) = −(1/2)x² + 3x + 7/2 en g(x) = −4/(x − 3) + 8 is geskets. M is die x-afsnit van f en T is die x-afsnit van g.\nBereken die lengte van MT.",
+    "memo_answer": "MT = 9/2 = 4,5 units",
+    "memo_steps": [
+      "Find M: set f(x) = 0 → −(1/2)x² + 3x + 7/2 = 0 → x² − 6x − 7 = 0 → (x − 7)(x + 1) = 0",
+      "x = 7 or x = −1; from the graph, M is at x = −1, so M(−1 ; 0)",
+      "Find T: set g(x) = 0 → −4/(x − 3) + 8 = 0 → 8(x − 3) = 4 → x = 7/2",
+      "T = (7/2 ; 0)",
+      "MT = 7/2 − (−1) = 7/2 + 1 = 9/2 = 4,5"
+    ],
+    "question_type": "short_answer",
+    "notes": "Full working required: solving for M, solving for T, and computing the distance."
+  },
+  {
+    "id": "math_2025_p1_q5_6",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "5.6",
+    "marks": 3,
+    "question_en": "f(x) = −(1/2)x² + 3x + 7/2. Determine the equation of the tangent to f at D(5 ; 6).",
+    "question_af": "f(x) = −(1/2)x² + 3x + 7/2. Bepaal die vergelyking van die raaklyn aan f by D(5 ; 6).",
+    "memo_answer": "y = −2x + 16",
+    "memo_steps": [
+      "Differentiate: f'(x) = −x + 3",
+      "Find gradient at x = 5: m = f'(5) = −5 + 3 = −2",
+      "Use point D(5 ; 6): 6 = −2(5) + c → c = 16",
+      "Equation of tangent: y = −2x + 16"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for f'(x), evaluating gradient at x = 5, and correct final equation."
+  },
+  {
+    "id": "math_2025_p1_q6_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "6.1",
+    "marks": 1,
+    "question_en": "The graphs of g(x) = x + c and f(x) = a/(x + p) + q are drawn. Graph g and the vertical asymptote of f intersect at the x-axis.\nWrite down the coordinates of the x-intercept of g in terms of p.",
+    "question_af": "Die grafieke van g(x) = x + c en f(x) = a/(x + p) + q is hieronder geskets. Grafiek g en die vertikale asimptoot van f sny mekaar op die x-as.\nSkryf die koördinate van die x-afsnit van g in terme van p neer.",
+    "memo_answer": "(−p ; 0)",
+    "memo_steps": [
+      "The vertical asymptote of f is at x = −p",
+      "g and the vertical asymptote intersect at the x-axis, so the x-intercept of g is at x = −p",
+      "Coordinates: (−p ; 0)"
+    ],
+    "question_type": "short_answer",
+    "notes": "Single mark for the correct coordinate in terms of p."
+  },
+  {
+    "id": "math_2025_p1_q6_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "6.2",
+    "marks": 5,
+    "question_en": "The graphs of g(x) = x + c and f(x) = a/(x + p) + q are drawn. Graph g intersects the horizontal asymptote of graph f at x = 1 and the graph f at x = 3. Graphs f and g also intersect on the y-axis. Determine the equation of f.",
+    "question_af": "Die grafieke van g(x) = x + c en f(x) = a/(x + p) + q is hieronder geskets. Grafiek g sny die horisontale asimptoot van grafiek f by x = 1 en die grafiek f by x = 3. Grafieke f en g sny mekaar ook op die y-as. Bepaal die vergelyking van f.",
+    "memo_answer": "f(x) = 2/(x − 2) − 1",
+    "memo_steps": [
+      "Since g and the vertical asymptote of f meet at the x-axis: x-intercept of g is (−p ; 0), so g(x) = x + p",
+      "Horizontal asymptote of f is q, and g intersects it at x = 1, so q = 1 + p, meaning f(x) = a/(x+p) + 1 + p",
+      "g also intersects f at x = 3: 3 + p = a/(3+p) + 1 + p, so 2 = a/(3+p), giving a = 6 + 2p",
+      "g and f intersect on the y-axis: at x = 0, g(0) = p and f(0) = a/p + 1 + p, so p = a/p + 1 + p, giving −1 = a/p, thus a = −p",
+      "Solve: −p = 6 + 2p → −3p = 6 → p = −2, so a = 2, q = −1",
+      "f(x) = 2/(x − 2) − 1"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for q = 1 + c, form of f, substituting the intersection at x = 3, a = 2, and q = −1."
+  },
+  {
+    "id": "math_2025_p1_q6_3",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "6.3",
+    "marks": 2,
+    "question_en": "f(x) = 2/(x − 2) − 1 and g(x) = x + c. Describe the transformation that g must undergo to become an axis of symmetry of f that cuts f at two points.",
+    "question_af": "f(x) = 2/(x − 2) − 1 en g(x) = x + c. Beskryf die transformasie wat g moet ondergaan om 'n simmetrie-as van f te word wat f op twee punte sny.",
+    "memo_answer": "Translation of 1 unit down (OR: Translation of 1 unit to the right)",
+    "memo_steps": [
+      "The axes of symmetry of f(x) = 2/(x−2) − 1 are y = x − 3 and y = −x + 1",
+      "g(x) = x + c has slope 1, matching the axis y = x − 3",
+      "g needs to shift down by 1 unit (from y = x to y = x − 3... adjusted for the actual c value from context), OR equivalently, shift 1 unit to the right",
+      "Transformation: translation of 1 unit down, OR translation of 1 unit to the right"
+    ],
+    "question_type": "description",
+    "notes": "Both 'translation of 1 unit down' and 'translation of 1 unit to the right' are accepted as equivalent correct answers. Full 2 marks for either correct description."
+  },
+  {
+    "id": "math_2025_p1_q7_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "7.1",
+    "marks": 2,
+    "question_en": "A travel company informs Robert that a holiday to a certain destination costs R40 000 now. The company predicts that the cost of this holiday will increase by 7,8% per annum. What will this holiday cost in 5 years' time?",
+    "question_af": "'n Reisagentskap lig Robert in dat 'n vakansie na 'n spesifieke bestemming nou R40 000 kos. Die agentskap voorspel dat die koste van hierdie vakansie jaarliks met 7,8% sal verhoog. Wat sal hierdie vakansie oor 5 jaar kos?",
+    "memo_answer": "R58 230,94",
+    "memo_steps": [
+      "Use compound growth formula: A = P(1 + i)ⁿ",
+      "A = 40 000(1 + 7,8%)⁵ = 40 000(1,078)⁵",
+      "A = R58 230,94"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for correct substitution into formula and correct answer."
+  },
+  {
+    "id": "math_2025_p1_q7_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "7.2",
+    "marks": 4,
+    "question_en": "Sarah opened a savings account that paid interest at a rate of 5,8% p.a., compounded quarterly. She deposited R2 300 into the account on 1 January 2020 and continued to make deposits of R2 300 at the beginning of each quarter thereafter. She made her last deposit on 1 October 2025. Calculate the accumulated amount in the account on 1 January 2026.",
+    "question_af": "Sarah het 'n spaarrekening oopgemaak wat rente teen 5,8% p.j., kwartaalliks saamgestel, betaal. Sy het op 1 Januarie 2020, R2 300 in die rekening gedeponeer en voortgegaan om deposito's van R2 300 aan die begin van elke kwartaal daarna te maak. Sy het haar laaste deposito op 1 Oktober 2025 gemaak. Bereken die totale bedrag in die rekening op 1 Januarie 2026.",
+    "memo_answer": "R66 411,60",
+    "memo_steps": [
+      "Quarterly interest rate i = 5,8% / 4 = 0,058/4",
+      "Number of deposits: from Jan 2020 to Oct 2025 = 24 quarters (24 deposits)",
+      "Since deposits are made at the beginning of each quarter (annuity-due), use future value of annuity-due: F = x[(1+i)ⁿ − 1]/i × (1+i)",
+      "F = 2300[(1 + 0,058/4)²⁴ − 1] / (0,058/4) × (1 + 0,058/4)",
+      "F = R66 411,60"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for correct quarterly interest rate, correct substitution into the future value formula, multiplying by (1+i) for annuity-due, and correct answer."
+  },
+  {
+    "id": "math_2025_p1_q7_3_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "7.3.1",
+    "marks": 5,
+    "question_en": "The bank granted Rajesh a loan of R900 000 on 28 February 2024 at an interest rate of 6,8% p.a., compounded monthly. Rajesh was unable to make the first three payments. He made his first repayment of R10 000 on 30 June 2024. He continued to make monthly repayments of R10 000 at the end of each month thereafter. How long, in completed months, will it take Rajesh to repay the loan from the time the loan was granted?",
+    "question_af": "Die bank het op 28 Februarie 2024 'n lening van R900 000 vir Rajesh toegestaan teen 'n rentekoers van 6,8% p.j., maandeliks saamgestel. Rajesh kon nie die eerste drie betalings maak nie. Hy het op 30 Junie 2024 sy eerste terugbetaling van R10 000 gemaak. Hy het voortgegaan om aan die einde van elke maand daarna maandelikse terugbetalings van R10 000 te maak. Hoe lank, in volle maande, sal dit Rajesh neem om die lening terug te betaal vanaf die tyd wat die lening goedgekeur is?",
+    "memo_answer": "133 months from the time the loan was granted",
+    "memo_steps": [
+      "Calculate the amount owed after 3 months (when first payment is due at end of month 4 = June 2024): A = 900 000(1 + 0,068/12)³ = R915 386,86",
+      "This amount is the present value of the annuity of monthly payments of R10 000",
+      "Use present value formula: P = x[1 − (1+i)⁻ⁿ] / i",
+      "915 386,86 = 10 000[1 − (1 + 0,068/12)⁻ⁿ] / (0,068/12)",
+      "Solve: (1 + 0,068/12)⁻ⁿ = 0,4812…",
+      "−n = log_(1.00567) 0,4812 → n = 129,419… months of payments",
+      "Total months from loan grant = 3 (missed) + 129,419 = 132,419… → 133 completed months"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for accumulating the debt over 3 months, correct substitution into present value formula, correct use of logarithms, answer for n, and final total answer."
+  },
+  {
+    "id": "math_2025_p1_q7_3_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "7.3.2",
+    "marks": 4,
+    "question_en": "The bank granted Rajesh a loan of R900 000 at 6,8% p.a. compounded monthly. His first repayment of R10 000 was on 30 June 2024 (4 months after the loan was granted). He makes 129 full monthly payments of R10 000. Calculate the value of the final payment.",
+    "question_af": "Die bank het vir Rajesh 'n lening van R900 000 teen 6,8% p.j. maandeliks saamgestel toegestaan. Sy eerste terugbetaling van R10 000 was op 30 Junie 2024 (4 maande ná die lening goedgekeur is). Hy maak 129 volle maandelikse terugbetalings van R10 000. Bereken die waarde van die finale betaling.",
+    "memo_answer": "R4 197,21",
+    "memo_steps": [
+      "Find the balance after 129 payments using the present value formula with fractional n = 0,419…",
+      "Balance = 10 000[1 − (1 + 0,068/12)^(−0,419…)] / (0,068/12) = R4 173,55",
+      "Add one month's interest to get the final payment: 4 173,55 × (1 + 0,068/12)¹ = R4 197,21"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for correct substitution, finding balance (n), balance amount, and final payment with one period of interest."
+  },
+  {
+    "id": "math_2025_p1_q8_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "8.1",
+    "marks": 4,
+    "question_en": "Determine f'(x) from first principles if it is given that f(x) = −2x + 3.",
+    "question_af": "Bepaal f'(x) vanuit eerste beginsels indien dit gegee word dat f(x) = −2x + 3.",
+    "memo_answer": "f'(x) = −2",
+    "memo_steps": [
+      "Write the first principles formula: f'(x) = lim(h→0) [f(x+h) − f(x)] / h",
+      "Find f(x+h): f(x+h) = −2(x+h) + 3 = −2x − 2h + 3",
+      "Substitute: [f(x+h) − f(x)] / h = [−2x − 2h + 3 − (−2x + 3)] / h = −2h / h",
+      "Simplify: lim(h→0) (−2) = −2",
+      "f'(x) = −2"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for f(x+h), substitution, simplification, and final answer."
+  },
+  {
+    "id": "math_2025_p1_q8_2_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "8.2.1",
+    "marks": 2,
+    "question_en": "Determine g'(x) if g(x) = −3x⁴ + 2x",
+    "question_af": "Bepaal g'(x) indien g(x) = −3x⁴ + 2x",
+    "memo_answer": "g'(x) = −12x³ + 2",
+    "memo_steps": [
+      "Differentiate each term using the power rule",
+      "d/dx(−3x⁴) = −12x³",
+      "d/dx(2x) = 2",
+      "g'(x) = −12x³ + 2"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for −12x³ and for 2."
+  },
+  {
+    "id": "math_2025_p1_q8_2_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "8.2.2",
+    "marks": 4,
+    "question_en": "Determine dy/dx if y = (2x⁴ + 1) / x²",
+    "question_af": "Bepaal dy/dx indien y = (2x⁴ + 1) / x²",
+    "memo_answer": "dy/dx = 4x − 2x⁻³",
+    "memo_steps": [
+      "Rewrite by dividing each term: y = 2x⁴/x² + 1/x² = 2x² + x⁻²",
+      "Differentiate: dy/dx = 4x − 2x⁻³"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for rewriting as 2x² and x⁻², and for correctly differentiating each term."
+  },
+  {
+    "id": "math_2025_p1_q9_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "9.1",
+    "marks": 4,
+    "question_en": "The graph of f(x) = x³ − 8x² + 5x + 14 is sketched. A, B and C are the x-intercepts of f. D and E are the turning points of f. The coordinates of B are (2 ; 0).\nCalculate the coordinates of E.",
+    "question_af": "Die grafiek van f(x) = x³ − 8x² + 5x + 14 is hieronder geskets. A, B en C is die x-afsnitte van f. D en E is die draaipunte van f. Die koördinate van B is (2 ; 0).\nBereken die koördinate van E.",
+    "memo_answer": "E(5 ; −36)",
+    "memo_steps": [
+      "Differentiate: f'(x) = 3x² − 16x + 5",
+      "Set f'(x) = 0: 3x² − 16x + 5 = 0",
+      "Factorise: (3x − 1)(x − 5) = 0",
+      "x = 1/3 or x = 5",
+      "E is the local minimum (right turning point), so x = 5",
+      "f(5) = (5)³ − 8(5)² + 5(5) + 14 = 125 − 200 + 25 + 14 = −36",
+      "E(5 ; −36)"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for f'(x), setting f'(x) = 0, correct x-value, and correct y-value."
+  },
+  {
+    "id": "math_2025_p1_q9_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "9.2",
+    "marks": 3,
+    "question_en": "f(x) = x³ − 8x² + 5x + 14. For which values of x is f concave down?",
+    "question_af": "f(x) = x³ − 8x² + 5x + 14. Vir watter waardes van x is f konkaaf na onder?",
+    "memo_answer": "x < 8/3",
+    "memo_steps": [
+      "Find f''(x): f''(x) = 6x − 16",
+      "For concave down: f''(x) < 0",
+      "6x − 16 < 0 → x < 8/3"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for f''(x), setting f''(x) < 0, and correct final answer."
+  },
+  {
+    "id": "math_2025_p1_q9_3",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "9.3",
+    "marks": 4,
+    "question_en": "f(x) = x³ − 8x² + 5x + 14. The coordinates of B are (2 ; 0). Use the graph to determine the values of x for which f(x) · f''(x) < 0.",
+    "question_af": "f(x) = x³ − 8x² + 5x + 14. Die koördinate van B is (2 ; 0). Gebruik die grafiek om die waardes van x te bepaal waarvoor f(x) · f''(x) < 0.",
+    "memo_answer": "−1 < x < 2 or 8/3 < x < 7",
+    "memo_steps": [
+      "f(x) · f''(x) < 0 means f(x) and f''(x) have opposite signs",
+      "x-intercepts of f are at A(−1 ; 0), B(2 ; 0), and C(7 ; 0)",
+      "f''(x) = 0 at x = 8/3 (point of inflection)",
+      "f(x) > 0 and f''(x) < 0 for −1 < x < 2 (f is above x-axis, concave down)",
+      "f(x) < 0 and f''(x) > 0 for 8/3 < x < 7 (f is below x-axis, concave up... wait, concave down between turning points, reassess): For 8/3 < x < 7: f(x) < 0 (below x-axis) and f''(x) > 0 (concave up), so product < 0",
+      "Final answer: −1 < x < 2 or 8/3 < x < 7"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for identifying x-intercepts (−1 and 7 beyond B=2), the first interval, and the second interval. Reading from the graph is required."
+  },
+  {
+    "id": "math_2025_p1_q9_4",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "9.4",
+    "marks": 6,
+    "question_en": "f(x) = x³ − 8x² + 5x + 14. For which values of t will y = −11x + t intersect f at 3 distinct points?",
+    "question_af": "f(x) = x³ − 8x² + 5x + 14. Vir watter waardes van t sal y = −11x + t die grafiek van f by 3 verskillende punte sny?",
+    "memo_answer": "14 < t < 634/27",
+    "memo_steps": [
+      "Set f(x) = −11x + t: x³ − 8x² + 5x + 14 = −11x + t",
+      "Rearrange: x³ − 8x² + 16x + 14 − t = 0",
+      "Differentiate and set equal to zero: 3x² − 16x + 16 = 0",
+      "Factorise: (x − 4)(3x − 4) = 0 → x = 4 or x = 4/3",
+      "At x = 4: t = (4)³ − 8(4)² + 5(4) + 14 + 11(4) = 64 − 128 + 20 + 14 + 44 = 14",
+      "At x = 4/3: t = (4/3)³ − 8(4/3)² + 5(4/3) + 14 + 11(4/3) = 634/27 ≈ 23,48",
+      "For 3 distinct intersections: 14 < t < 634/27"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for equating, finding x-values, both t-values, and the final interval with correct inequality signs."
+  },
+  {
+    "id": "math_2025_p1_q10_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "10.1",
+    "marks": 3,
+    "question_en": "A rectangular metal sheet has dimensions x and h units, with x > h, and a perimeter of 50 units. The metal sheet is rolled into a cylinder with two open ends (top and bottom) and height h units.\nShow that the volume of the cylinder is given by V = 25x²/(4π) − x³/(4π)",
+    "question_af": "'n Reghoekige metaalplaat het afmetings van x en h eenhede, met x > h, en 'n omtrek van 50 eenhede. Die metaalplaat word in 'n silinder gerol met twee oop kante (bo en onder) en hoogte h eenhede.\nToon dat die volume van die silinder deur V = 25x²/(4π) − x³/(4π) gegee word.",
+    "memo_answer": "V = 25x²/(4π) − x³/(4π)",
+    "memo_steps": [
+      "Perimeter of rectangle: 2x + 2h = 50 → h = 25 − x",
+      "When rolled into a cylinder, the width x becomes the circumference: 2πr = x → r = x/(2π)",
+      "Volume of cylinder: V = πr²h = π × (x/(2π))² × (25 − x)",
+      "V = π × x²/(4π²) × (25 − x) = x²(25 − x)/(4π)",
+      "V = 25x²/(4π) − x³/(4π)"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for the perimeter equation, deriving r = x/(2π), and correct substitution into V = πr²h."
+  },
+  {
+    "id": "math_2025_p1_q10_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "10.2",
+    "marks": 3,
+    "question_en": "V = 25x²/(4π) − x³/(4π). Calculate the value of x that will maximise the volume of the cylinder.",
+    "question_af": "V = 25x²/(4π) − x³/(4π). Bereken die waarde van x wat die volume van die silinder sal maksimeer.",
+    "memo_answer": "x = 50/3 ≈ 16,67",
+    "memo_steps": [
+      "Differentiate: V'(x) = 50x/(4π) − 3x²/(4π)",
+      "Set V'(x) = 0: 50x/(4π) − 3x²/(4π) = 0",
+      "Simplify: 50x − 3x² = 0 → x(50 − 3x) = 0",
+      "x = 0 (rejected) or x = 50/3 ≈ 16,67",
+      "x = 50/3"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for the derivative, setting V'(x) = 0, and correct answer with selection (x = 0 rejected)."
+  },
+  {
+    "id": "math_2025_p1_q11_1_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "11.1.1",
+    "marks": 3,
+    "question_en": "A survey was conducted among female and male learners at a school about which type of cold drink they preferred. The data from the survey is presented in the table below:\n\n|         | JUICE | ENERGY DRINKS | TOTAL |\n|---------|-------|---------------|-------|\n| Female  |   a   |       b       |   c   |\n| Male    |  36   |      54       |   f   |\n| Total   |   e   |       d       |  210  |\n\nThe events 'male' and 'preferring juice' are independent. Show that e = 84.",
+    "question_af": "'n Opname is onder vroulike en manlike leerders by 'n skool gedoen oor watter tipe koeldrank hulle verkies. Die data van die opname word in die tabel hieronder gegee:\n\n|         | SAP   | ENERGIEDRANKIES | TOTAAL |\n|---------|-------|-----------------|--------|\n| Vroulik |   a   |        b        |   c    |\n| Manlik  |  36   |       54        |   f    |\n| Totaal  |   e   |        d        |  210   |\n\nDie gebeurtenisse manlik en verkies sap is onafhanklik. Toon dat e = 84.",
+    "memo_answer": "e = 84",
+    "memo_steps": [
+      "For independent events: P(Male and Juice) = P(Male) × P(Juice)",
+      "Total males = 36 + 54 = 90, so P(Male) = 90/210",
+      "P(Male and Juice) = 36/210",
+      "P(Juice) = e/210",
+      "Equation: 36/210 = (90/210) × (e/210)",
+      "36/210 = 90e/210²",
+      "36 × 210 = 90e",
+      "e = 7560/90 = 84"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for setting up the independence equation P(M and J) = P(M) × P(J), using 36/210, and P(Male) = 90/210."
+  },
+  {
+    "id": "math_2025_p1_q11_1_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "11.1.2",
+    "marks": 3,
+    "question_en": "Using the survey data (total = 210, males: 36 juice, 54 energy drinks; e = 84), calculate the probability that a female learner, chosen at random from the group, will like energy drinks.",
+    "question_af": "Gebruik die opnamedata (totaal = 210, manlik: 36 sap, 54 energiedrankies; e = 84) om die waarskynlikheid te bereken dat 'n vroulike leerder, willekeurig uit die groep gekies, van energiedrankies sal hou.",
+    "memo_answer": "P(Female and Energy Drinks) = 72/210 = 12/35 ≈ 0,34",
+    "memo_steps": [
+      "Total juice column: e = 84, so male juice = 36, female juice a = 84 − 36 = 48",
+      "Total energy drinks column: d = 210 − 84 = 126",
+      "Female energy drinks: b = 126 − 54 = 72",
+      "P(Female and Energy Drinks) = 72/210 = 12/35 ≈ 0,34"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for d-value (or c-value), b-value, and correct probability. Alternative: c = 120, b = 72."
+  },
+  {
+    "id": "math_2025_p1_q11_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "11.2",
+    "marks": 4,
+    "question_en": "At a kiosk, 120 people buy either a cup of coffee or a bottle of water. The chance of rain on any given day is 75%. The chance of a person buying a cup of coffee on a rainy day is three times the chance of the person buying coffee on a non-rainy day. The probability of a person buying coffee on any given day is 7/12. Calculate the number of cups of coffee that will be sold on a non-rainy day.",
+    "question_af": "By 'n kiosk koop 120 persone óf 'n koppie koffie óf 'n bottel water. Die moontlikheid vir reën op enige gegewe dag is 75%. Die moontlikheid dat 'n persoon 'n koppie koffie op 'n reënerige dag sal koop, is drie keer die moontlikheid dat 'n persoon koffie op 'n nie-reënerige dag sal koop. Die waarskynlikheid dat 'n persoon koffie op enige gegewe dag sal koop, is 7/12. Bereken die getal koppies koffie wat op 'n nie-reënerige dag verkoop sal word.",
+    "memo_answer": "28 cups of coffee",
+    "memo_steps": [
+      "Let x = probability of buying coffee on a non-rainy day",
+      "Then probability on rainy day = 3x",
+      "Total probability: P(rain) × P(coffee|rain) + P(no rain) × P(coffee|no rain) = 7/12",
+      "(3/4)(3x) + (1/4)(x) = 7/12",
+      "9x/4 + x/4 = 7/12",
+      "10x/4 = 7/12 → x = 7/30",
+      "Number of cups on non-rainy day = (7/30) × 120 = 28"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for setting up 3/4(3x) term, 1/4(x) term, equating to 7/12, and the final answer."
+  },
+  {
+    "id": "math_2025_p1_q11_3_1",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "11.3.1",
+    "marks": 2,
+    "question_en": "Eight runners compete in a race where there are no tied finishes. Bongi and Andrew are two of the competitors. Calculate the total number of possible ways in which the 8 runners can finish the race if Bongi finishes in a position immediately after Andrew.",
+    "question_af": "Agt deelnemers neem aan 'n wedloop deel waar daar geen gelykop-uitslag is nie. Bongi en Andrew is twee van die deelnemers. Bereken die totale getal moontlike maniere waarop die 8 deelnemers die wedloop kan voltooi indien Bongi in 'n posisie direk ná Andrew eindig.",
+    "memo_answer": "5 040",
+    "memo_steps": [
+      "Treat Andrew and Bongi as a fixed pair (Andrew immediately followed by Bongi)",
+      "This pair can be placed in 7 possible consecutive positions (positions 1-2, 2-3, …, 7-8)",
+      "The remaining 6 runners can be arranged in 6! ways",
+      "Total = 7 × 6! = 7 × 720 = 5 040"
+    ],
+    "question_type": "short_answer",
+    "notes": "Both 7 × 6! = 5040 and 7! = 5040 are accepted equivalently. Full 2 marks for the correct answer."
+  },
+  {
+    "id": "math_2025_p1_q11_3_2",
+    "subject": "Mathematics",
+    "year": 2025,
+    "paper": 1,
+    "section": "B",
+    "question_number": "11.3.2",
+    "marks": 4,
+    "question_en": "Eight runners compete in a race where there are no tied finishes. Bongi and Andrew are two of the competitors. Calculate the probability that TWO OR MORE runners finish the race after Andrew and before Bongi.",
+    "question_af": "Agt deelnemers neem aan 'n wedloop deel waar daar geen gelykop-uitslag is nie. Bongi en Andrew is twee van die deelnemers. Bereken die waarskynlikheid dat TWEE OF MEER deelnemers die wedloop ná Andrew en voor Bongi sal voltooi.",
+    "memo_answer": "15/56 ≈ 0,27",
+    "memo_steps": [
+      "Total arrangements of 8 runners: 8!",
+      "Count arrangements where 2 or more runners are between Andrew and Bongi:",
+      "2 runners between A and B: A × 6 × 5 × B × _ × _ × _ × _ → C(6,2) × 2! × 6! / (arrangements) ... use: 5 × 6! for 2-gap, 4 × 6! for 3-gap, 3 × 6! for 4-gap, 2 × 6! for 5-gap, 1 × 6! for 6-gap",
+      "Favourable = 6!(5 + 4 + 3 + 2 + 1) = 6! × 15",
+      "P = 6!(15) / 8! = 15 × 720 / 40 320 = 10 800 / 40 320 = 15/56"
+    ],
+    "question_type": "short_answer",
+    "notes": "Marks awarded for 6!(15), 8! in denominator, and final probability 15/56."
+  }
+]
