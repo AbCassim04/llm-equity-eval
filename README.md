@@ -16,7 +16,7 @@ South Africa's NSC exams are set bilingually by the Department of Basic Educatio
 
 ## Dataset
 
-**Source:** [Department of Basic Education — Past Exam Papers](https://www.education.gov.za/Curriculum/NationalSeniorCertificate/NSCPastExaminationpapers.aspx)
+**Source:** South African Department of Basic Education — NSC Past Examination Papers. Available at: https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/2025NovemberExamPapers.aspx
 
 | Subject | Questions | Paper |
 |---|---|---|
