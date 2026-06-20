@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "math_2025_p1_q1_1_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "x = -5 of x = 2",
+    "memo_steps_af": [
+      "(x+5)(x-2)=0",
+      "x = -5",
+      "x = 2"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q1_1_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "x = -0,26 of x = -1,54",
+    "memo_steps_af": [
+      "standaardvorm: 5x² + 9x + 2 = 0",
+      "vervanging in korrekte formule",
+      "x = (-9 ± √41) / 10",
+      "antwoord x = -0,26",
+      "antwoord x = -1,54"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q1_1_3",
+    "subject": "Mathematics",
+    "memo_answer_af": "x < 0 of x > 1/4",
+    "memo_steps_af": [
+      "standaardvorm: 8x² - 2x > 0",
+      "2x(4x-1) > 0",
+      "kritiese waardes: 0 en 1/4",
+      "antwoord: x < 0 of x > 1/4"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q1_1_4",
+    "subject": "Mathematics",
+    "memo_answer_af": "x = -1 of x = 2",
+    "memo_steps_af": [
+      "(2·2^x - 1)(2^x - 4) = 0",
+      "faktore",
+      "2^x = 1/2 of 2^x = 4",
+      "albei vergelykings",
+      "x = -1",
+      "x = 2"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q1_1_5",
+    "subject": "Mathematics",
+    "memo_answer_af": "x = 1/4",
+    "memo_steps_af": [
+      "kwadratering van beide kante",
+      "isolering van vierkantswortel",
+      "kwadratering van beide kante slegs na isolering",
+      "standaardvorm: 4x² - 5x + 1 = 0",
+      "antwoord x = 1/4 met keuse (x ≠ 1)"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q1_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "y = -5/2 of y = 1; x = -1/2 of x = 3",
+    "memo_steps_af": [
+      "x = y + 2",
+      "5xy = x² + 6",
+      "vervanging",
+      "standaardvorm: 2y² + 3y - 5 = 0",
+      "y-waardes: y = -5/2 of y = 1",
+      "x-waardes: x = -1/2 of x = 3"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q2_1_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "t = -2",
+    "memo_steps_af": [
+      "gelykstel van verhoudings: (t-2)/(t+10) = (t+4)/(t-2)",
+      "kruisvermenigvuldiging",
+      "uitbreiding: t² - 4t + 4 = t² + 14t + 40",
+      "-18t = 36",
+      "t = -2"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q2_1_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "T₂₅ = (1/2)²¹ of (2)⁻²¹ of (8)⁻⁷",
+    "memo_steps_af": [
+      "8 en -4 geïdentifiseer",
+      "r = -4/8 = -1/2",
+      "antwoord in eksponensiaalvorm"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q2_1_3",
+    "subject": "Mathematics",
+    "memo_answer_af": "S∞ = 16/3 = 5,33",
+    "memo_steps_af": [
+      "S∞ = a/(1-r)",
+      "vervanging: S∞ = 8 / (1 - (-1/2))",
+      "antwoord: 16/3"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q2_2_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "T₁₄ - T₆ = 32",
+    "memo_steps_af": [
+      "T₁₄ - T₆ = 4 × 8 = 32"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q2_2_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "k = 21",
+    "memo_steps_af": [
+      "aantal terme: n = 118 - k",
+      "laaste term: T₁₁₇ = 467",
+      "vervanging in somformule",
+      "standaardvorm: 2k² - 3k - 819 = 0",
+      "antwoord met keuse: k = 21"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q3_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "T₅ = 164",
+    "memo_steps_af": [
+      "eerste verskille: 35, 33, 31, 29",
+      "tweede verskil: -2",
+      "antwoord: T₅ = 164"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q3_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "Tₙ = -n² + 38n - 1",
+    "memo_steps_af": [
+      "2a = -2, a = -1",
+      "3(-1) + b = 35, b = 38",
+      "-1 + 38 + c = 36, c = -1"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q3_3",
+    "subject": "Mathematics",
+    "memo_answer_af": "T₁₉ = 360",
+    "memo_steps_af": [
+      "n = -38 / (2(-1)) = 19",
+      "metode",
+      "n = 19",
+      "T₁₉ = -(19)² + 38(19) - 1 = 360"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q3_4",
+    "subject": "Mathematics",
+    "memo_answer_af": "n = 35",
+    "memo_steps_af": [
+      "(n+3)/2 = 19",
+      "n + 3 = 38",
+      "n = 35"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q4_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "t = -1",
+    "memo_steps_af": [
+      "t = log_{1/3} 3 = -1"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q4_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "A(1; 0)",
+    "memo_steps_af": [
+      "A(1; 0)"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q4_3",
+    "subject": "Mathematics",
+    "memo_answer_af": "f⁻¹(x) = (1/3)^x = 3^(-x)",
+    "memo_steps_af": [
+      "omruil van x en y",
+      "antwoord: y = (1/3)^x = 3^(-x)"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q4_4",
+    "subject": "Mathematics",
+    "memo_answer_af": "y = 0",
+    "memo_steps_af": [
+      "asimptoot: y = 0"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q4_6",
+    "subject": "Mathematics",
+    "memo_answer_af": "0 < y < 3 of y ∈ (0; 3)",
+    "memo_steps_af": [
+      "(4; 3) is 'n punt op h",
+      "0 < y < 3"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q5_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "x ∈ R, x ≠ 3",
+    "memo_steps_af": [
+      "x ∈ R, x ≠ 3"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q5_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "y ≤ 8",
+    "memo_steps_af": [
+      "y ≤ 8"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q5_3_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "3 < x ≤ 5 of x ∈ (3; 5]",
+    "memo_steps_af": [
+      "3 < x ≤ 5"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q5_3_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "x < 1 of x > 5",
+    "memo_steps_af": [
+      "x < 1",
+      "x > 5"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q5_4",
+    "subject": "Mathematics",
+    "memo_answer_af": "y = -½(x-3)² + 8",
+    "memo_steps_af": [
+      "p en q waardes: p = 3, q = 8",
+      "vervanging (5; 6): 6 = a(5-3)² + 8",
+      "a = -1/2",
+      "vereenvoudiging: y = -½x² + 3x + 7/2"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q5_5",
+    "subject": "Mathematics",
+    "memo_answer_af": "MT = 9/2 = 4,5",
+    "memo_steps_af": [
+      "los vir x (f(x)=0): x = 7 of x = -1",
+      "x-waardes",
+      "koördinate van M(-1; 0)",
+      "los vir x (g(x)=0): x = 7/2",
+      "x-waarde van T(7/2; 0)",
+      "MT = 7/2 + 1 = 9/2 = 4,5"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q5_6",
+    "subject": "Mathematics",
+    "memo_answer_af": "y = -2x + 16",
+    "memo_steps_af": [
+      "f'(x) = -x + 3",
+      "m = f'(5) = -2",
+      "antwoord: y = -2x + 16"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q6_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "(-p; 0)",
+    "memo_steps_af": [
+      "(-p; 0)"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q6_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "f(x) = 2/(x-2) - 1",
+    "memo_steps_af": [
+      "q = 1 + c",
+      "f(x) = a/(x+c) + 1 + c",
+      "vervanging punt (3; 3+c)",
+      "a = 2",
+      "q = -1"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q6_3",
+    "subject": "Mathematics",
+    "memo_answer_af": "Translasie van 1 eenheid af OF translasie van 1 eenheid na regs",
+    "memo_steps_af": [
+      "Translasie van 1 eenheid af",
+      "OF translasie van 1 eenheid na regs"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q7_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "A = R58 230,94",
+    "memo_steps_af": [
+      "A = P(1+i)^n",
+      "vervanging: A = 40 000(1 + 7,8%)⁵",
+      "antwoord: R58 230,94"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q7_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "F = R66 411,60",
+    "memo_steps_af": [
+      "i = 0,058/4",
+      "vervanging in korrekte formule",
+      "toekomstige waarde × (1+i)¹",
+      "antwoord: R66 411,60"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q7_3_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "133 maande sedert lening toegestaan is",
+    "memo_steps_af": [
+      "A = R915 386,86",
+      "vervanging in annuïteitsformule",
+      "korrekte gebruik van logs",
+      "n = 129,419 maande",
+      "finale antwoord: 133 maande"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q7_3_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "Finale betaling = R4 197,21",
+    "memo_steps_af": [
+      "vervanging",
+      "n = 0,419",
+      "saldo: R4 173,55",
+      "finale betaling: R4 197,21"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q8_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "f'(x) = -2",
+    "memo_steps_af": [
+      "f(x+h) = -2(x+h) + 3",
+      "vervanging",
+      "vereenvoudiging: -2h/h",
+      "antwoord: -2"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q8_2_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "g'(x) = -12x³ + 2",
+    "memo_steps_af": [
+      "-12x³",
+      "+2"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q8_2_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "dy/dx = 4x - 2x⁻³",
+    "memo_steps_af": [
+      "y = 2x² + x⁻²",
+      "afgeleide eerste term: 4x",
+      "afgeleide tweede term: -2x⁻³"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q9_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "E(5; -36)",
+    "memo_steps_af": [
+      "f'(x) = 3x² - 16x + 5",
+      "f'(x) = 0",
+      "x-waarde: x = 5",
+      "y-waarde: y = -36"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q9_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "x < 8/3",
+    "memo_steps_af": [
+      "f''(x) = 6x - 16",
+      "f''(x) < 0",
+      "antwoord: x < 8/3"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q9_3",
+    "subject": "Mathematics",
+    "memo_answer_af": "-1 < x < 2 of 8/3 < x < 7",
+    "memo_steps_af": [
+      "x-afsnitte van f: (-1; 0) en (7; 0)",
+      "eerste interval: -1 < x < 2",
+      "tweede interval: 8/3 < x < 7"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q9_4",
+    "subject": "Mathematics",
+    "memo_answer_af": "14 < t < 634/27",
+    "memo_steps_af": [
+      "gelykstel: 3x² - 16x + 5 = -11",
+      "x-waardes: x = 4 of x = 4/3",
+      "antwoord by x = 4: t = 14",
+      "antwoord by x = 4/3: t = 634/27"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q10_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "V = 25x²/(4π) - x³/(4π)",
+    "memo_steps_af": [
+      "2x + 2h = 50",
+      "r = x/(2π)",
+      "vervanging: V = π(x/2π)²(25-x)"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q10_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "x = 50/3 ≈ 16,67",
+    "memo_steps_af": [
+      "V'(x) = 50x/(4π) - 3x²/(4π)",
+      "V'(x) = 0",
+      "antwoord met keuse: x = 50/3"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q11_1_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "e = 84",
+    "memo_steps_af": [
+      "P(M en J) = P(M) × P(J)",
+      "36/210",
+      "P(Manlik) = 90/210",
+      "e = 84"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q11_1_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "P(Vroulik en energie-drank) = 72/210 = 12/35 ≈ 0,34",
+    "memo_steps_af": [
+      "d-waarde: d = 126",
+      "b-waarde: b = 72",
+      "antwoord: 72/210 = 12/35"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q11_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "28 koppies koffie",
+    "memo_steps_af": [
+      "3/4(3x)",
+      "1/4(x)",
+      "= 7/12",
+      "antwoord: x = 7/30, dus 28 koppies"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q11_3_1",
+    "subject": "Mathematics",
+    "memo_answer_af": "7 × 6! = 5 040",
+    "memo_steps_af": [
+      "7 × 6! = 5 040"
+    ]
+  },
+  {
+    "id": "math_2025_p1_q11_3_2",
+    "subject": "Mathematics",
+    "memo_answer_af": "P(twee of meer lopers eindig na Andrew) = 15/56 ≈ 0,27",
+    "memo_steps_af": [
+      "6!(15)",
+      "8! in noemer",
+      "6!(15)/8! of 15/56"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_1_1",
+    "subject": "Life Sciences",
+    "memo_answer_af": "C",
+    "memo_steps_af": [
+      "C"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_1_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "A",
+    "memo_steps_af": [
+      "A"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_1_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "D",
+    "memo_steps_af": [
+      "D"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_1_4",
+    "subject": "Life Sciences",
+    "memo_answer_af": "A",
+    "memo_steps_af": [
+      "A"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_1_7",
+    "subject": "Life Sciences",
+    "memo_answer_af": "B",
+    "memo_steps_af": [
+      "B"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_1_9",
+    "subject": "Life Sciences",
+    "memo_answer_af": "B",
+    "memo_steps_af": [
+      "B"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_1_10",
+    "subject": "Life Sciences",
+    "memo_answer_af": "A",
+    "memo_steps_af": [
+      "A"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_2_1",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Progesteroon",
+    "memo_steps_af": [
+      "Progesteroon"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_2_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Katarakte",
+    "memo_steps_af": [
+      "Katarakte"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_2_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Oögenese",
+    "memo_steps_af": [
+      "Oögenese"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_2_4",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Blindevlek",
+    "memo_steps_af": [
+      "Blindevlek"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_2_5",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Ovulasie",
+    "memo_steps_af": [
+      "Ovulasie"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_2_6",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Chorion",
+    "memo_steps_af": [
+      "Chorion"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_2_7",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Absissiensuur",
+    "memo_steps_af": [
+      "Absissiensuur"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_2_8",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Homeostase",
+    "memo_steps_af": [
+      "Homeostase"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_3_1",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Beide A en B",
+    "memo_steps_af": [
+      "Beide A en B"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_3_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Slegs B",
+    "memo_steps_af": [
+      "Slegs B"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q1_3_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Beide A en B",
+    "memo_steps_af": [
+      "Beide A en B"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_1_1",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die eier het 'n hoë persentasie dooier, bevat meer energie/voedingstowwe; die kuiken sal goed ontwikkeld wees wat dit meer onafhanklik maak",
+    "memo_steps_af": [
+      "Die eier het 'n hoë persentasie (%) dooier",
+      "bevat dit meer energie/voedingstowwe",
+      "Die kuiken sal goed ontwikkeld wees",
+      "meer onafhanklik maak"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_1_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Arend / Aasvoël / Duif",
+    "memo_steps_af": [
+      "Arend",
+      "Aasvoël",
+      "Duif"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_1_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die eiers het 'n laer persentasie dooier, sal die kuikens nie ten volle ontwikkeld wees nie",
+    "memo_steps_af": [
+      "Die eiers het 'n laer persentasie (%) dooier",
+      "sal die kuikens nie ten volle ontwikkeld wees nie"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_2_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Dit handhaaf die temperatuur van die testes laer as liggaamstemperatuur om die produksie van gesonde sperm te verseker",
+    "memo_steps_af": [
+      "Dit handhaaf die temperatuur van die testes/deel C laer as liggaamstemperatuur",
+      "om die produksie van gesonde sperm te verseker"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_2_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Spermatogenese; diploïede selle in die seminale buisies ondergaan meiose om haploïede spermsellle te vorm, onder invloed van testosteroon",
+    "memo_steps_af": [
+      "Spermatogenese",
+      "Onder die invloed van testosteroon",
+      "diploïede selle",
+      "in die seminale buisies/testes/saadbuisies",
+      "ondergaan meiose",
+      "om haploïede (sperm) selle te vorm"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_3_1a",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die corpus luteum degenereer, progesteroonvlakke daal, endometrium word nie langer onderhou nie/menstruasie vind plaas",
+    "memo_steps_af": [
+      "Die corpus luteum degenereer gevolglik",
+      "daal die progesteroon vlakke",
+      "Die endometrium word nie langer onderhou nie/menstruasie vind plaas"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_3_1b",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die Graafse follikel sekreteer estrogeen wat die dikte van die endometrium verhoog",
+    "memo_steps_af": [
+      "Die Graafse follikel sekreteer",
+      "estrogeen wat die dikte van die endometrium verhoog"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_3_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Dit word meer bloedvatrykend en meer klierryk",
+    "memo_steps_af": [
+      "Dit word meer bloedvatrykend",
+      "meer klierryk"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_3_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Dit maak inplanting van die embrio moontlik / die ontwikkeling van die plasenta / verhoogde bloedtoevoer vir voeding van die ontwikkelende embrio",
+    "memo_steps_af": [
+      "Dit maak inplanting van die embrio moontlik",
+      "die ontwikkeling van die plasenta",
+      "verhoogde bloedtoevoer vir voeding van die ontwikkelende embrio"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_4_1",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Hipotalamus",
+    "memo_steps_af": [
+      "Hipotalamus"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_5_1",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Lengte",
+    "memo_steps_af": [
+      "Lengte"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_5_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Geslag / Almal het IKS gehad / Ouderdom / Duur van die ondersoek",
+    "memo_steps_af": [
+      "Geslag/slegs seuns het deelgeneem",
+      "Almal (al die seuns) het IKS gehad",
+      "Ouderdom/almal (al die seuns) was 2-jaar oud",
+      "Duur van die ondersoek"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_5_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Om te bewys dat dit die toegevoegde groeihormoon is wat die verandering in lengte van die seuns veroorsaak het en nie enige ander faktor nie",
+    "memo_steps_af": [
+      "Om te bewys dat dit die toegevoegde groeihormoon is wat die verandering in lengte veroorsaak het",
+      "en nie enige ander faktor nie"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_5_4",
+    "subject": "Life Sciences",
+    "memo_answer_af": "0,7 mg",
+    "memo_steps_af": [
+      "25 × 0,028",
+      "= 0,7 mg"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q2_5_5",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Toegevoegde groeihormoon veroorsaak 'n toename in lengte van kinders met IKS",
+    "memo_steps_af": [
+      "Toegevoegde groeihormoon veroorsaak 'n toename in lengte van kinders met IKS"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_1_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Dit is nie reëlmatig gekrom nie / nie gerond nie",
+    "memo_steps_af": [
+      "Dit is nie reëlmatig gekrom nie/nie gerond nie"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_1_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die lig word onreëlmatig gebreek/in verskillende rigtings en fokus nie op die retina nie en vorm 'n dowwe beeld",
+    "memo_steps_af": [
+      "Die lig word onreëlmatig gebreek/in verskillende rigtings",
+      "fokus nie op die retina nie",
+      "vorm 'n dowwe beeld"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_1_4",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Laser / Chirurgie / Brille/lense",
+    "memo_steps_af": [
+      "Laser",
+      "Chirurgie",
+      "Brille/lense"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_2_1",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Sentrale senuweestelsel",
+    "memo_steps_af": [
+      "Sentrale senuweestelsel"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_2_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die impuls word deur die sensoriese neuron gelei via die dorsale wortel na die interneuron en na die motorneuron deur sinaptiese kontak; dan oorgedra via die ventrale wortel na die effektor wat die refleksaksie teweegbring",
+    "memo_steps_af": [
+      "word deur die sensoriese neuron gelei",
+      "via die dorsale wortel van die rugmurgsenuwee",
+      "na die interneuron",
+      "en na die motorneuron",
+      "deur sinaptiese kontak",
+      "via die ventrale wortel na die effektor wat die refleksaksie teweegbring"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Siliêre spiere ontspan; suspensoriese ligamente word styf; lens word minder konveks; lig minder gebreek; duidelike beeld op retina",
+    "memo_steps_af": [
+      "Siliêre spiere ontspan",
+      "Suspensoriese ligamente word styf/spanning op die lens verhoog",
+      "Die lens word minder konveks",
+      "lig minder gebreek word",
+      "om 'n duidelike beeld op die retina te vorm"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_4_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die kristas word gestimuleer en skakel die stimulus om in 'n impuls wat gestuur word via die gehoorsenuwee na die serebellum vir interpretasie; impulse word dan gestuur na skelespiere om balans te herstel",
+    "memo_steps_af": [
+      "Die kristas word gestimuleer",
+      "skakel die stimulus/prikkel om in 'n impuls",
+      "gestuur word via die gehoorsenuwee",
+      "na die serebellum vir interpretasie",
+      "Impulse word dan gestuur na die skelespiere om balans te herstel"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_4_4a",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Minder/geen stimuli sal omgeskakel word na impulse; minder/geen impulse sal gestuur word na die serebrum om geïnterpreteer te word",
+    "memo_steps_af": [
+      "Minder/geen stimuli sal omgeskakel word na impulse",
+      "Minder/geen impulse sal gestuur word na die serebrum om geïnterpreteer te word"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_4_4b",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die oorpluisies beperk die klankgolwe wat die middeloor/timpanummembraan bereik; minder vibrasies word gevorm in die middeloor; minder drukgolwe word gevorm in die inwendige oor om skade te voorkom",
+    "memo_steps_af": [
+      "Die oorpluisies beperk die klankgolwe wat die middeloor/timpanummembraan bereik",
+      "Minder vibrasies word gevorm in die middeloor",
+      "Minder drukgolwe word gevorm in die inwendige oor om skade te voorkom"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_5_1",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Pankreas",
+    "memo_steps_af": [
+      "Pankreas"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_5_2",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Drie / Nege",
+    "memo_steps_af": [
+      "Drie/nege"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_5_3",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Langwerkende insulien vs Vinnigwerkende insulien",
+    "memo_steps_af": [
+      "Een inspuiting is oor 'n tydperk van 23 uur gegee",
+      "Drie inspuitings is oor 'n tydperk van 23 uur gegee",
+      "Die inspuiting is teen 23:00 gegee",
+      "Die inspuiting is voor elke maaltyd gegee",
+      "Die inspuiting veroorsaak 'n laer konsentrasie insulien",
+      "Die inspuiting veroorsaak 'n hoër konsentrasie insulien",
+      "Die konsentrasie van insulien in die bloed bly vir 'n langer tydperk konstant",
+      "Die konsentrasie van insulien in die bloed fluktueer"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_5_4",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Vinnigwerkende insulien",
+    "memo_steps_af": [
+      "Vinnigwerkende insulien"
+    ]
+  },
+  {
+    "id": "bio_2025_p1_q3_5_5",
+    "subject": "Life Sciences",
+    "memo_answer_af": "Die insulien sal die glukosevlak selfs verder laat afneem/glukose word na glikogeen omgeskakel; daar is minder glukose beskikbaar vir sellulêre respirasie",
+    "memo_steps_af": [
+      "Die insulien sal die glukosevlak selfs verder laat afneem/glukose word na glikogeen omgeskakel/verhoogde opname van glukose deur selle",
+      "Daar is minder glukose beskikbaar vir sellulêre respirasie"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_1_1",
+    "subject": "Business Studies",
+    "memo_answer_af": "C",
+    "memo_steps_af": [
+      "C"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_1_2",
+    "subject": "Business Studies",
+    "memo_answer_af": "A",
+    "memo_steps_af": [
+      "A"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_1_3",
+    "subject": "Business Studies",
+    "memo_answer_af": "D",
+    "memo_steps_af": [
+      "D"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_1_4",
+    "subject": "Business Studies",
+    "memo_answer_af": "A",
+    "memo_steps_af": [
+      "A"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_1_5",
+    "subject": "Business Studies",
+    "memo_answer_af": "B",
+    "memo_steps_af": [
+      "B"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_2_1",
+    "subject": "Business Studies",
+    "memo_answer_af": "Nasionale Vaardigheid",
+    "memo_steps_af": [
+      "Nasionale Vaardigheid"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_2_2",
+    "subject": "Business Studies",
+    "memo_answer_af": "bedreiging",
+    "memo_steps_af": [
+      "bedreiging"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_2_3",
+    "subject": "Business Studies",
+    "memo_answer_af": "posbeskrywing",
+    "memo_steps_af": [
+      "posbeskrywing"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_2_4",
+    "subject": "Business Studies",
+    "memo_answer_af": "keuring",
+    "memo_steps_af": [
+      "keuring"
+    ]
+  },
+  {
+    "id": "bus_2025_q1_2_5",
+    "subject": "Business Studies",
+    "memo_answer_af": "bestuur",
+    "memo_steps_af": [
+      "bestuur"
+    ]
+  },
+  {
+    "id": "bus_2025_q2_1",
+    "subject": "Business Studies",
+    "memo_answer_af": "Jaarlikse verlof / Siekverlof / Kraamverlof / Ouerskap/Aannemings/Opdraggewende ouerskap/Vaderskap / Gesinsverantwoordelikheidsverlof",
+    "memo_steps_af": [
+      "Jaarlikse verlof",
+      "Siekverlof",
+      "Kraamverlof",
+      "Ouerskap/Aannemings/Opdraggewende ouerskap/Vaderskap verlof",
+      "Gesinsverantwoordelikheidsverlof"
+    ]
+  },
+  {
+    "id": "bus_2025_q2_2",
+    "subject": "Business Studies",
+    "memo_answer_af": "SOOO's rapporteer aan die direkteur-generaal; bevorder en stig leerlingskappe; vorder heffings in en betaal toelaes",
+    "memo_steps_af": [
+      "Rapporteer aan die direkteur-generaal",
+      "Bevorder en stig leerlingskappe",
+      "Vorder heffings in en betaal toelaes soos vereis",
+      "Verskaf akkreditasie vir vaardigheidsontwikkeling-fasiliteerders",
+      "Registreer leerlingskapooreenkomste/leerlingskapprogramme",
+      "Goedkeuring van werkplekvaardigheidsplanne en jaarlikse opleidingsverslae",
+      "Monitor/Evalueer die werklike opleiding deur diensverskaffers",
+      "Toeken van toelaes aan werkgewers/onderwys-/opleidingverskaffers"
+    ]
+  },
+  {
+    "id": "bus_2025_q2_3_1",
+    "subject": "Business Studies",
+    "memo_answer_af": "Mededingende wedywering/Mag van mededingers",
+    "memo_steps_af": [
+      "Mededingende wedywering/Mag van mededingers",
+      "BR se verkope het gedaal aangesien Helder Oogprodukte unieke sonbrille teen billike pryse verkoop"
+    ]
+  },
+  {
+    "id": "bus_2025_q2_4",
+    "subject": "Business Studies",
+    "memo_answer_af": "Ondersoek die onderliggende basis van 'n besigheidstrategie; vergelyk verwagte met werklike prestasie; neem korrektiewe aksie",
+    "memo_steps_af": [
+      "Ondersoek die onderliggende basis van 'n besigheidstrategie",
+      "Kyk vorentoe en agtertoe in die implementeringsproses",
+      "Vergelyk die verwagte prestasie met die werklike prestasie",
+      "Bepaal die redes vir afwykings en ontleed hierdie redes",
+      "Neem korrektiewe aksie sodat die afwykings reggestel kan word",
+      "Stel spesifieke datums vir beheer en opvolging"
+    ]
+  },
+  {
+    "id": "bus_2025_q2_5",
+    "subject": "Business Studies",
+    "memo_answer_af": "Markpenetrasie; Markontwikkeling; Produkontwikkeling",
+    "memo_steps_af": [
+      "Markpenetrasie",
+      "Besighede fokus daarop om bestaande produkte in die bestaande mark te verkoop om hul markaandeel te vergroot",
+      "Markontwikkeling",
+      "Dis 'n groeistrategie waarmee besighede poog om hul bestaande produkte in nuwe markte te verkoop",
+      "Produkontwikkeling",
+      "Dis 'n groeistrategie waar besighede poog om nuwe produkte in die bestaande mark bekend te stel"
+    ]
+  },
+  {
+    "id": "bus_2025_q2_6_2",
+    "subject": "Business Studies",
+    "memo_answer_af": "Bied aansoekers voorooreenkoms dokumentasie aan; maak alle kostes bekend; registreer by Nasionale Kredietreguleerder",
+    "memo_steps_af": [
+      "Bied aansoekers voorooreenkoms dokumentasie aan",
+      "Maak alle kostes van die lening bekend/Geen verskuilde kostes mag gehef word nie",
+      "Besighede moet by die Nasionale Kredietreguleerder geregistreer wees",
+      "Dien jaarlikse verslag van voldoening by die Nasionale Kredietreguleerder in",
+      "Voer bekostigbaarheidsbeoordelings uit"
+    ]
+  },
+  {
+    "id": "bus_2025_q2_7",
+    "subject": "Business Studies",
+    "memo_answer_af": "Besighede moet swart mense by aandeelhouding insluit; moedig klein swart beleggers aan; meer geleenthede vir swart entrepreneurs",
+    "memo_steps_af": [
+      "Besighede moet swart mense by aandeelhouding/vennootskappe/franchises insluit",
+      "Moedig klein swart beleggers aan om in groot maatskappye te belê",
+      "VMO's met 50% of meer swart mense in bestuur word bevorder na Vlak 3 van die BBSEB-telkaart",
+      "Meer geleenthede word geskep vir swart mense om eienaars/entrepreneurs te word",
+      "Groot besighede moet gesamentlike ondernemings met klein besighede in swart besit vorm"
+    ]
+  },
+  {
+    "id": "bus_2025_q2_8",
+    "subject": "Business Studies",
+    "memo_answer_af": "Verhoog verkope/inkomste; verbeter besigheidshandelsmerk; verminder risiko van afhanklikheid van een produk",
+    "memo_steps_af": [
+      "Verhoog verkope/inkomste en besigheidsgroei",
+      "Verbeter die besigheidshandelsmerk/beeld/handelsmerkbewustheid",
+      "Verminder die risiko om slegs op een produk staat te maak vir verkope/inkomste",
+      "Besighede verkry meer tegnologiese bevoegdhede deur produkwysiging",
+      "Volhoubare winsgewendheid deur verskillende produklyne",
+      "Laat besighede toe om hul mededingende voordeel te behou"
+    ]
+  },
+  {
+    "id": "bus_2025_q3_1",
+    "subject": "Business Studies",
+    "memo_answer_af": "Pensioenfonds / Mediese fonds / Begrafnisvoordeel / Voorsorgfonds / Toelaes",
+    "memo_steps_af": [
+      "Pensioenfonds",
+      "Mediese fonds/Gesondheidsversekeringfonds",
+      "Begrafnisvoordeel",
+      "Voorsorgfonds",
+      "Toelaes/Motor/Reis/Behuising/Selfoon/Klere",
+      "Prestasiegerigte byvoordele",
+      "Uitreiking van bonusaandele",
+      "Personeelkorting/Gratis of laekoste-maaltye"
+    ]
+  },
+  {
+    "id": "bus_2025_q3_3_1",
+    "subject": "Business Studies",
+    "memo_answer_af": "Stukwerk",
+    "memo_steps_af": [
+      "Stukwerk"
+    ]
+  },
+  {
+    "id": "bus_2025_q3_3_2",
+    "subject": "Business Studies",
+    "memo_answer_af": "Bevorder die oplossing van arbeidsgeskille; beskerm regte van werknemers; bevorder ekonomiese ontwikkeling",
+    "memo_steps_af": [
+      "Bevorder die oplossing van arbeidsgeskille tussen werkgewer en werknemer",
+      "Beskerm die regte van werknemers/werkgewers soos uiteengesit in die Grondwet",
+      "Bevorder ekonomiese ontwikkeling en sosiale geregtigheid/arbeidsvrede",
+      "Voorsien dat onopgeloste geskille verwys word na Arbeidshowe/Arbeidsappèlhof",
+      "Bevorder ordelike onderhandelinge en werknemersdeelname in besluitneming",
+      "Werkers kan nie maklik ontslaan word nie omdat KVBA se prosesse gevolg moet word"
+    ]
+  },
+  {
+    "id": "bus_2025_q3_4",
+    "subject": "Business Studies",
+    "memo_answer_af": "Werkgewer kan werknemer afdank vir geldige rede; werknemers kan bedank vir beter geleenthede; aftree-ouderdom bereik",
+    "memo_steps_af": [
+      "Werkgewer kan werknemer afdank vir geldige rede(s) soos onbevredigende werksprestasie/wangedrag",
+      "Werkgewer het moontlik nie meer werk vir oortollige werknemers nie/herstruktureer",
+      "Werkgewer kan werknemers aflê as gevolg van insolvensie",
+      "Werknemers kan besluit om vrywillig te bedank vir beter werksgeleenthede",
+      "Werknemer het die voorafbepaalde ouderdom van aftrede bereik",
+      "Onvermoë van werknemer om te werk as gevolg van siekte/beserings",
+      "Deur onderlinge ooreenkoms",
+      "Die duur van die indiensnemingskontrak verval/eindig"
+    ]
+  },
+  {
+    "id": "bus_2025_q3_5",
+    "subject": "Business Studies",
+    "memo_answer_af": "Gehaltebeheer: inspekteer finale produk; Gehalteversekering: standaarde by elke fase",
+    "memo_steps_af": [
+      "Gehaltebeheer: stelsel wat verseker dat die verlangde gehalte verkry word deur die finale produk te inspekteer",
+      "Gehaltebeheer: verseker dat die finale produk aan die vereiste standaarde voldoen",
+      "Gehalteversekering: verseker dat die vereiste standaarde behaal word tydens elke fase van die proses",
+      "Gehalteversekering: prosesse wat in plek gestel word om te verseker dat die gehalte voldoen aan voorafbepaalde standaarde met minimale defekte"
+    ]
+  },
+  {
+    "id": "bus_2025_q3_6_2",
+    "subject": "Business Studies",
+    "memo_answer_af": "Onrealistiese spertye; onvoldoende opleiding; afname in produktiwiteit; besigheidsreputasie ly skade",
+    "memo_steps_af": [
+      "Stel onrealistiese spertye wat nie bereik kan word nie",
+      "Werknemers is nie voldoende opgelei nie wat tot lae gehalte produkte lei",
+      "Afname in produktiwiteit as gevolg van onderbrekings",
+      "Besighede kan dalk nie die nodige veranderinge aanbring om die behoeftes van klante te bevredig nie",
+      "Die besigheid se reputasie/beeld kan skade lei as gevolg van swak gehalte/foutiewe produkte",
+      "Beleggers kan hul beleggings onttrek indien daar 'n afname in winste is",
+      "Afname in verkope omdat meer produkte teruggestuur word"
+    ]
+  },
+  {
+    "id": "bus_2025_q3_7",
+    "subject": "Business Studies",
+    "memo_answer_af": "Voorkom produkdefekte; verbeter prestasie; koste van produksie verminder; strategieë hersien",
+    "memo_steps_af": [
+      "Voorkom produkdefekte en verminder vermorsing/klagtes van klante",
+      "Goeie gehaltekontrole/prosedures verminder die vervanging/onderbreking van toerusting",
+      "Kan toegerus wees om dinge die eerste keer reg te kry",
+      "Verbeter prestasie en handhaaf hoë gehaltestandaarde",
+      "Verbeter huidige en toekomstige bestuur van gehalteuitsette",
+      "Koste van produksie word verminder aangesien afwykings reggestel kan word",
+      "Strategieë word hersien om die gehalte van die produk en dienste te verbeter"
+    ]
+  },
+  {
+    "id": "bus_2025_q3_8",
+    "subject": "Business Studies",
+    "memo_answer_af": "Hanteer negatiewe publisiteit; verskaf positiewe persvrystellings; implementeer KMI-programme",
+    "memo_steps_af": [
+      "Hanteer vinnig negatiewe publisiteit/Minder/geen voorvalle van negatiewe publisiteit",
+      "Verskaf gereelde/positiewe persvrystellings",
+      "Implementeer volhoubare korporatiewe maatskaplike investering (KMI)-programme",
+      "Goeie/positiewe resultate van terugvoer van openbare opnames oor besigheidsbeeld",
+      "Hoë standaard van interne publisiteit/voorkoms van geboue/professionele telefoonetiket",
+      "Nakoming van onlangse wetgewing soos SEB voldoening"
+    ]
+  },
+  {
+    "id": "bus_2025_q4_1",
+    "subject": "Business Studies",
+    "memo_answer_af": "Ontbondeling/Vervreemding / Afleggings / Likwidasie",
+    "memo_steps_af": [
+      "Ontbondeling/Vervreemding",
+      "Afleggings",
+      "Likwidasie"
+    ]
+  },
+  {
+    "id": "bus_2025_q4_2",
+    "subject": "Business Studies",
+    "memo_answer_af": "Stel visie/missiestelling in; doen omgewingsanalise; formuleer strategieë; implementeer; evalueer voortdurend",
+    "memo_steps_af": [
+      "Stel 'n duidelike visie/missiestelling/meetbare/realistiese doelstelling in",
+      "Identifiseer geleenthede/swak punte/sterk punte/bedreigings deur omgewingsanalise te doen",
+      "Formuleer alternatiewe strategieë om op uitdagings te reageer",
+      "Ontwikkel aksieplan(ne) wat take/spertye/hulpbronne insluit",
+      "Implementeer gekose strategieë en kommunikeer dit aan alle belanghebbendes",
+      "Voortdurende evaluering/monitering/meting van strategieë om regstellende stappe te doen"
+    ]
+  },
+  {
+    "id": "bus_2025_q4_4",
+    "subject": "Business Studies",
+    "memo_answer_af": "Positief: bevorder veiligheid; eisprosesse eenvoudig; elimineer siviele hofkoste; Negatief: tydrowend; militêre werkers nie gedek",
+    "memo_steps_af": [
+      "Bevorder veiligheid in die werkplek",
+      "Huiswerkers kan nou vergoeding eis vir werksverwante beserings/siektes",
+      "Werknemers dra nie by tot hierdie fonds nie",
+      "Eisprosesse is relatief eenvoudig",
+      "Elimineer tyd en koste wat spandeer word aan lang siviele hofverrigtinge",
+      "Enige vergoeding aan 'n werknemer/die gesin is vrygestel van inkomstebelasting",
+      "Werkgewers word beskerm teen finansiële las indien 'n ongeluk voorkom",
+      "Eisprosesse kan tydrowend wees",
+      "Militêre werkers word nie gedek nie",
+      "Werkers wat tydelik/permanent in die buiteland werksaam is word nie gedek nie"
+    ]
+  },
+  {
+    "id": "bus_2025_q4_5",
+    "subject": "Business Studies",
+    "memo_answer_af": "Verkoop plaasvervangende produkte teen laer pryse; leer plaaslike tale; werk saam met gemeenskapspolisiëring",
+    "memo_steps_af": [
+      "Verkoop plaasvervangende produkte teen laer pryse as gevolg van lae vlakke van inkomsteverspreiding",
+      "Leer plaaslike/inheemse tale/Huur werknemers wat goed vertroud is met die plaaslike taal",
+      "Werk saam met gemeenskapspolisiëringsforums en verbeter sekuriteit",
+      "Besighede moet goed bekend wees met die aanvraag/modes van hul kliënte",
+      "Ontwikkel/produseer/inkorporeer/innoveer nuwe produkte wat die leefstyl/neigings van kliënte aanspreek"
+    ]
+  },
+  {
+    "id": "bus_2025_q4_6",
+    "subject": "Business Studies",
+    "memo_answer_af": "Stel nuwe werknemers bekend aan bestuur/kollegas; gee toer van gebou; laat welkom voel; verduidelik veiligheidsregulasies",
+    "memo_steps_af": [
+      "Stel nuwe werknemers bekend aan bestuur/kollegas om verhoudings te vestig",
+      "Gee nuwe werknemers 'n toer/inligting oor die uitleg van die geboue/kantoor",
+      "Laat nuwe werknemers welkom voel deur hulle aan hul fisiese werksomgewing bekend te stel",
+      "Verbeter vaardighede deur indiensopleiding",
+      "Stel nuwe werknemers bekend aan die organisasiestruktuur/hul toesighouers",
+      "Gee nuwe werknemers die geleentheid om vrae te vra",
+      "Verduidelik veiligheidsregulasies en reëls"
+    ]
+  },
+  {
+    "id": "bus_2025_q4_7",
+    "subject": "Business Studies",
+    "memo_answer_af": "Werknemers dra 1% by; werkgewers dra 1% by; totaal 2% betaal aan WVF; help afhanklikes van oorlede werker",
+    "memo_steps_af": [
+      "Werknemers moet 1% van hul basiese salaris tot WVF bydra",
+      "Werkgewers moet 1% van 'n werknemer se basiese salaris tot WVF bydra",
+      "Werkgewers moet WVF-bydraes van 2% direk aan die WVF oorbetaal",
+      "Die fonds help ook die afhanklikes van 'n bydraende werker wat gesterf het",
+      "Die fonds bied korttermyn finansiële bystand aan werkers wanneer hulle werkloos word of nie kan werk nie",
+      "Bydraes word aan die WVF of SAID betaal"
+    ]
+  },
+  {
+    "id": "bus_2025_q4_8_2",
+    "subject": "Business Studies",
+    "memo_answer_af": "Doeltreffende kliëntedienste; tyd en hulpbronne doeltreffend gebruik; produktiwiteit verhoog; mededingende voordeel",
+    "memo_steps_af": [
+      "Doeltreffende kliëntedienste word gelewer wat tot verhoogde kliëntetevredenheid lei",
+      "Tyd en hulpbronne word doeltreffend gebruik",
+      "Produktiwiteit verhoog deur behoorlike tydsbestuur/gebruik van hoëgehalte-hulpbronne",
+      "Produkte/Dienste verbeter voortdurend wat lei tot verhoogde kliëntetevredenheid",
+      "Visie-/Missie-/Besigheidsdoelstellings kan bereik word",
+      "'n Besigheid het 'n mededingende voordeel oor hulle mededingers",
+      "Verbeter besigheidsbeeld want daar is minder defekte/terugsendings"
+    ]
+  },
+  {
+    "id": "bus_2025_q4_9",
+    "subject": "Business Studies",
+    "memo_answer_af": "Los gehalteprobleme op; ondersoek probleme en stel oplossings voor; verseker geen duplisering; verhoog werknemersmoraal",
+    "memo_steps_af": [
+      "Los probleme op wat verband hou met gehalte en implementeer verbeterings",
+      "Ondersoek probleme en stel oplossings aan bestuur voor",
+      "Verseker dat daar geen duplisering van aktiwiteite/take in die werkplek is nie",
+      "Maak voorstelle vir die verbetering van stelsels en prosesse in die werkplek",
+      "Verbeter die gehalte van produkte/dienste/produktiwiteit deur gereelde hersiening",
+      "Monitor/Versterk strategieë sodat die besigheid se bedrywighede glad verloop",
+      "Verhoog werknemers se moraal/motivering om die spangees 'n hupstoot te gee",
+      "Verminder die koste van oortolligheid en verkwistende pogings in die lang termyn"
+    ]
+  }
+]

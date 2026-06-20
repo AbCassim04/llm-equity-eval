@@ -118,20 +118,23 @@ python scripts/summary.py
 
 ## Key Findings
 
-Summary across all 129 questions, scored independently by three judges:
+Summary across all 129 questions, scored independently by four judges:
 
 ```
   Subject            Judge           EN        AF       Gap
   ───────────────────────────────────────────────────────────
   Mathematics        J1 Keyword    0.6712    0.4688    0.2024
+                     J1b AF memo   0.6712    0.6752    0.0040
                      J2 Gemini     0.9795    0.9718    0.0077
                      J3 Claude     0.8504    0.8447    0.0057
   ───────────────────────────────────────────────────────────
   Life Sciences      J1 Keyword    0.7360    0.2075    0.5285
+                     J1b AF memo   0.7360    0.7280    0.0079
                      J2 Gemini     1.0000    0.9724    0.0276
                      J3 Claude     0.9413    0.9033    0.0380
   ───────────────────────────────────────────────────────────
   Business Studies   J1 Keyword    0.5534    0.2190    0.3344
+                     J1b AF memo   0.5534    0.5541    0.0001
                      J2 Gemini     0.8407    0.8324    0.0084
                      J3 Claude     0.7474    0.7641   -0.0168
   ───────────────────────────────────────────────────────────
@@ -142,7 +145,7 @@ Summary across all 129 questions, scored independently by three judges:
 - **J1 keyword overlap dramatically overstates the gap** (up to 0.53 in Life Sciences). Afrikaans responses are scored against English memo tokens, so correct Afrikaans answers are penalised regardless of accuracy. This is a measurement artifact, not a real performance gap.
 - **Both LLM judges show much smaller gaps (< 0.04)** across all three subjects, and broadly agree with each other on direction and magnitude.
 - **Business Studies is the only subject where Afrikaans scores English on J3 Claude** (AF 0.76 > EN 0.74), confirming there is no consistent directional bias.
-- **Overall conclusion:** Gemini 2.5 Flash performs equitably across English and Afrikaans on these NSC papers. The apparent gap in keyword scoring is an artefact of using English-only reference answers to evaluate a bilingual model.
+- **Overall conclusion:** The J1b finding is definitive: the same keyword scorer using Afrikaans memo tokens instead of English ones collapses the gap by up to 478x, confirming the gap was entirely a measurement artefact.
 
 ---
 

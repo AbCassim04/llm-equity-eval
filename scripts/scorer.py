@@ -3,9 +3,10 @@ Score Gemini responses against memo_answer and memo_steps.
 Outputs results/scored_results.csv with per-row scores and a
 language equity summary printed to stdout.
 
-Judge 1 (default): keyword overlap against memo_answer and memo_steps.
-Judge 2 (--judge gemini): Gemini 2.5 Flash rates each response 0.0–1.0.
-Judge 3 (--judge claude): Claude Haiku rates each response 0.0–1.0.
+Judge 1  (default):   keyword overlap against English memo_answer / memo_steps.
+Judge 1b (--judge af): same method, but AF responses scored against Afrikaans memo.
+Judge 2  (--judge gemini): Gemini 2.5 Flash rates each response 0.0–1.0.
+Judge 3  (--judge claude): Claude Haiku rates each response 0.0–1.0.
 """
 
 import argparse
@@ -83,6 +84,44 @@ def score_row(row: dict) -> dict:
         "gemini_judge_score": None,
         "claude_judge_score": None,
         "error": row.get("error") or "",
+    }
+
+
+# ---------------------------------------------------------------------------
+# Judge 1b — keyword overlap with Afrikaans memo
+# ---------------------------------------------------------------------------
+
+def load_af_memo(path: str) -> dict[str, dict]:
+    """Return memo_af.json contents as a dict keyed by question id."""
+    with open(path, encoding="utf-8") as f:
+        items = json.load(f)
+    return {item["id"]: item for item in items}
+
+
+def score_row_af(row: dict, af_memo: dict[str, dict]) -> dict:
+    """Judge 1b: for AF responses use Afrikaans memo tokens; EN rows unchanged."""
+    base = score_row(row)
+
+    response = row.get("response") or ""
+
+    if row.get("language") == "af" and row["id"] in af_memo:
+        af = af_memo[row["id"]]
+        memo_answer = af.get("memo_answer_af") or ""
+        raw_steps = af.get("memo_steps_af") or []
+    else:
+        memo_answer = row.get("memo_answer") or ""
+        raw_steps = row.get("memo_steps") or []
+
+    memo_steps = " ".join(raw_steps) if isinstance(raw_steps, list) else raw_steps
+
+    answer_score = keyword_overlap(response, memo_answer)
+    steps_score = keyword_overlap(response, memo_steps)
+
+    return {
+        **base,
+        "memo_answer_score_1b": round(answer_score, 4),
+        "memo_steps_score_1b": round(steps_score, 4),
+        "combined_score_1b": round(0.6 * answer_score + 0.4 * steps_score, 4),
     }
 
 
@@ -236,6 +275,41 @@ def print_judge_comparison(df: pd.DataFrame) -> None:
             print(f"\n{label} equity gap (EN vs AF): {abs(en - af):.4f}  (EN={en:.4f}, AF={af:.4f})")
 
 
+def print_af_memo_comparison(df: pd.DataFrame) -> None:
+    succeeded = df[df["error"] == ""]
+
+    W = {"subject": 20, "judge": 5, "score": 7}
+    divider = "─" * (W["subject"] + W["judge"] + W["score"] * 3 + 14)
+
+    print("\n--- J1 (English memo) vs J1b (Afrikaans memo for AF): gap by subject ---")
+    print(f"\n  {'Subject':<{W['subject']}}  {'Judge':<{W['judge']}}  "
+          f"{'EN':>{W['score']}}  {'AF':>{W['score']}}  {'Gap':>{W['score']}}")
+    print(f"  {divider}")
+
+    SUBJECT_ORDER = ["Mathematics", "Life Sciences", "Business Studies"]
+    subjects = [s for s in SUBJECT_ORDER if s in succeeded["subject"].unique()]
+    subjects += [s for s in succeeded["subject"].unique() if s not in SUBJECT_ORDER]
+
+    for subject in subjects:
+        sub = succeeded[succeeded["subject"] == subject]
+        en = sub[sub["language"] == "en"]
+        af = sub[sub["language"] == "af"]
+        if en.empty or af.empty:
+            continue
+
+        rows = [
+            ("J1",  en["combined_score"].mean(),    af["combined_score"].mean()),
+            ("J1b", en["combined_score_1b"].mean(), af["combined_score_1b"].mean()),
+        ]
+        for i, (label, en_mean, af_mean) in enumerate(rows):
+            subj_cell = f"{subject:<{W['subject']}}" if i == 0 else " " * W["subject"]
+            gap = abs(en_mean - af_mean)
+            print(f"  {subj_cell}  {label:<{W['judge']}}  "
+                  f"{en_mean:>{W['score']}.4f}  {af_mean:>{W['score']}.4f}  {gap:>{W['score']}.4f}")
+
+    print(f"  {divider}\n")
+
+
 # ---------------------------------------------------------------------------
 # Entry points
 # ---------------------------------------------------------------------------
@@ -336,6 +410,29 @@ def score_with_claude_judge(raw_path: str, output_path: str) -> None:
     print_judge_comparison(df)
 
 
+def score_af(raw_path: str, output_path: str, memo_af_path: str) -> None:
+    af_memo = load_af_memo(memo_af_path)
+
+    with open(raw_path, encoding="utf-8") as f:
+        raw = json.load(f)
+
+    if not raw:
+        print("No results found in input file.")
+        return
+
+    af_covered = sum(1 for r in raw if r.get("language") == "af" and r["id"] in af_memo)
+    print(f"Loaded {len(af_memo)} Afrikaans memos — covers {af_covered} AF rows in raw file")
+
+    scored = [score_row_af(r, af_memo) for r in raw]
+    df = pd.DataFrame(scored)
+
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(output_path, index=False)
+    print(f"Scored {len(df)} rows  ->  {output_path}")
+
+    print_af_memo_comparison(df)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Score Gemini responses for equity")
     parser.add_argument(
@@ -350,13 +447,20 @@ def main():
     )
     parser.add_argument(
         "--judge",
-        choices=["gemini", "claude"],
+        choices=["af", "gemini", "claude"],
         default=None,
-        help="LLM judge to use: 'gemini' (Judge 2) or 'claude' (Judge 3). Default: keyword overlap.",
+        help="Judge variant: 'af' (J1b, AF memo), 'gemini' (J2), 'claude' (J3). Default: J1 keyword.",
+    )
+    parser.add_argument(
+        "--memo-af",
+        default="data/extracted/memo_af.json",
+        help="Path to Afrikaans memo file (used with --judge af).",
     )
     args = parser.parse_args()
 
-    if args.judge == "gemini":
+    if args.judge == "af":
+        score_af(args.raw, args.output, args.memo_af)
+    elif args.judge == "gemini":
         score_with_gemini_judge(args.raw, args.output)
     elif args.judge == "claude":
         score_with_claude_judge(args.raw, args.output)
