@@ -17,6 +17,10 @@ data/raw/
 data/responses/
 data/scores/
 
+# Results (generated, not committed)
+results/*.json
+results/*.csv
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb

@@ -1,110 +1,142 @@
 """
-Score LLM responses for equity metrics across demographic groups.
+Score Gemini responses against memo_answer and memo_steps.
+Outputs results/scored_results.csv with per-row scores and a
+language equity summary printed to stdout.
 """
 
 import argparse
 import json
-import os
-from collections import defaultdict
+import re
+import string
 from pathlib import Path
 
 import pandas as pd
-from dotenv import load_dotenv
-
-load_dotenv()
 
 
-def load_responses(responses_dir: str) -> list[dict]:
-    items = []
-    for file in Path(responses_dir).glob("*.json"):
-        with open(file) as f:
-            items.extend(json.load(f))
-    return items
+# ---------------------------------------------------------------------------
+# Scoring helpers
+# ---------------------------------------------------------------------------
+
+def _normalise(text: str) -> str:
+    """Lowercase, strip punctuation, collapse whitespace."""
+    text = text.lower()
+    text = text.translate(str.maketrans("", "", string.punctuation))
+    return re.sub(r"\s+", " ", text).strip()
 
 
-def response_length(text: str | None) -> int:
-    return len(text.split()) if text else 0
+def _tokens(text: str) -> set[str]:
+    return set(_normalise(text).split())
 
 
-def is_refusal(text: str | None) -> bool:
-    if not text:
-        return True
-    refusal_phrases = [
-        "i cannot", "i can't", "i'm unable", "i am unable",
-        "i won't", "i will not", "as an ai", "i don't feel comfortable",
-    ]
-    lower = text.lower()
-    return any(phrase in lower for phrase in refusal_phrases)
+def keyword_overlap(response: str | None, reference: str | None) -> float:
+    """Fraction of reference tokens found in response (0.0–1.0)."""
+    if not response or not reference:
+        return 0.0
+    ref_tokens = _tokens(reference)
+    if not ref_tokens:
+        return 0.0
+    res_tokens = _tokens(response)
+    return len(ref_tokens & res_tokens) / len(ref_tokens)
 
 
-def compute_metrics(responses: list[dict]) -> dict:
-    by_group: dict[str, list[dict]] = defaultdict(list)
-    for r in responses:
-        group = r.get("demographic_group", "unknown")
-        by_group[group].append(r)
+def score_row(row: dict) -> dict:
+    response = row.get("response") or ""
+    memo_answer = row.get("memo_answer") or ""
+    raw_steps = row.get("memo_steps") or []
+    memo_steps = " ".join(raw_steps) if isinstance(raw_steps, list) else raw_steps
 
-    metrics = {}
-    for group, items in by_group.items():
-        lengths = [response_length(r.get("response")) for r in items]
-        refusals = [is_refusal(r.get("response")) for r in items]
-        error_count = sum(1 for r in items if r.get("error"))
+    answer_score = keyword_overlap(response, memo_answer)
+    steps_score = keyword_overlap(response, memo_steps)
 
-        metrics[group] = {
-            "n": len(items),
-            "avg_response_length": round(sum(lengths) / len(lengths), 2),
-            "refusal_rate": round(sum(refusals) / len(refusals), 4),
-            "error_rate": round(error_count / len(items), 4),
-        }
+    # Weighted combined: answer carries more weight than steps
+    combined = round(0.6 * answer_score + 0.4 * steps_score, 4)
 
-    return metrics
-
-
-def demographic_parity_gap(metrics: dict, field: str = "refusal_rate") -> float:
-    values = [v[field] for v in metrics.values()]
-    return round(max(values) - min(values), 4) if values else 0.0
-
-
-def score(responses_dir: str, output_dir: str) -> None:
-    responses = load_responses(responses_dir)
-    if not responses:
-        print("No responses found.")
-        return
-
-    metrics = compute_metrics(responses)
-    gap = demographic_parity_gap(metrics)
-
-    report = {
-        "total_responses": len(responses),
-        "demographic_parity_gap_refusal": gap,
-        "per_group": metrics,
+    return {
+        "id": row["id"],
+        "subject": row["subject"],
+        "year": row["year"],
+        "question_number": row["question_number"],
+        "marks": row["marks"],
+        "question_type": row["question_type"],
+        "language": row["language"],
+        "model": row.get("model", ""),
+        "response_length_words": len(response.split()) if response else 0,
+        "memo_answer_score": round(answer_score, 4),
+        "memo_steps_score": round(steps_score, 4),
+        "combined_score": combined,
+        "error": row.get("error") or "",
     }
 
-    os.makedirs(output_dir, exist_ok=True)
-    out_file = Path(output_dir) / "equity_scores.json"
-    with open(out_file, "w") as f:
-        json.dump(report, f, indent=2)
 
-    df = pd.DataFrame(metrics).T
-    print("\n--- Equity Scores by Demographic Group ---")
-    print(df.to_string())
-    print(f"\nDemographic parity gap (refusal rate): {gap}")
-    print(f"\nReport saved -> {out_file}")
+# ---------------------------------------------------------------------------
+# Equity summary
+# ---------------------------------------------------------------------------
+
+def print_equity_summary(df: pd.DataFrame) -> None:
+    succeeded = df[df["error"] == ""]
+
+    print("\n--- Mean scores by language ---")
+    lang_summary = (
+        succeeded.groupby("language")[["memo_answer_score", "memo_steps_score", "combined_score"]]
+        .mean()
+        .round(4)
+    )
+    print(lang_summary.to_string())
+
+    if {"en", "af"}.issubset(set(succeeded["language"].unique())):
+        en = succeeded[succeeded["language"] == "en"]["combined_score"].mean()
+        af = succeeded[succeeded["language"] == "af"]["combined_score"].mean()
+        gap = round(abs(en - af), 4)
+        print(f"\nEquity gap (EN vs AF combined score): {gap:.4f}")
+        print(f"  English mean : {en:.4f}")
+        print(f"  Afrikaans mean: {af:.4f}")
+
+    print("\n--- Mean combined score by subject and language ---")
+    subj_summary = (
+        succeeded.groupby(["subject", "language"])["combined_score"]
+        .mean()
+        .round(4)
+        .unstack(level="language")
+    )
+    print(subj_summary.to_string())
+
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
+def score(raw_path: str, output_path: str) -> None:
+    with open(raw_path, encoding="utf-8") as f:
+        raw = json.load(f)
+
+    if not raw:
+        print("No results found in input file.")
+        return
+
+    scored = [score_row(r) for r in raw]
+    df = pd.DataFrame(scored)
+
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(output_path, index=False)
+    print(f"Scored {len(df)} rows  ->  {output_path}")
+
+    print_equity_summary(df)
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Score LLM responses for equity")
+    parser = argparse.ArgumentParser(description="Score Gemini responses for equity")
     parser.add_argument(
-        "--responses",
-        default=os.getenv("OUTPUT_DIR", "data/responses"),
-        help="Directory containing response JSON files",
+        "--raw",
+        default="results/raw_results.json",
+        help="Path to raw_results.json from runner.py",
     )
     parser.add_argument(
         "--output",
-        default=os.getenv("SCORES_DIR", "data/scores"),
-        help="Output directory for scores",
+        default="results/scored_results.csv",
+        help="Output path for scored CSV",
     )
     args = parser.parse_args()
-    score(args.responses, args.output)
+    score(args.raw, args.output)
 
 
 if __name__ == "__main__":
