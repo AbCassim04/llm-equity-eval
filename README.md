@@ -1,5 +1,7 @@
 # LLM Equity Evaluation — South African Grade 12 Exams
 
+**Author:** Aboobaker Cassim, University of the Witwatersrand
+
 Does a large language model perform equitably across English and Afrikaans? This project evaluates **Gemini 2.5 Flash** on 2025 South African National Senior Certificate (NSC) exam questions, comparing response quality between the two official languages of instruction using three independent scoring methods.
 
 ---
@@ -141,3 +143,9 @@ Summary across all 129 questions, scored independently by three judges:
 - **Both LLM judges show much smaller gaps (< 0.04)** across all three subjects, and broadly agree with each other on direction and magnitude.
 - **Business Studies is the only subject where Afrikaans scores English on J3 Claude** (AF 0.76 > EN 0.74), confirming there is no consistent directional bias.
 - **Overall conclusion:** Gemini 2.5 Flash performs equitably across English and Afrikaans on these NSC papers. The apparent gap in keyword scoring is an artefact of using English-only reference answers to evaluate a bilingual model.
+
+---
+
+## Data Sources
+
+- Department of Basic Education — 2025 November NSC Exam Papers: https://www.education.gov.za/Curriculum/NationalSeniorCertificate(NSC)Examinations/2025NovemberExamPapers.aspx
